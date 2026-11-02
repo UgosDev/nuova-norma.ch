@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuova-Norma.ch — Il Portale delle Norme e della Giurisprudenza Svizzera (NNCH)</title>
+  <meta name="description" content="Nuova-Norma.ch (NNCH) raccoglie, interpreta e analizza le leggi svizzere federali e cantonali. La fonte primaria di intelligenza legale per Anorma.ch.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #080c14;
+      --bg-card: rgba(15, 23, 42, 0.75);
+      --bg-card-hover: rgba(30, 41, 59, 0.85);
+      --border-color: rgba(255, 255, 255, 0.1);
+      --border-highlight: rgba(234, 179, 8, 0.4);
+      --primary-gold: #eab308;
+      --primary-gold-glow: rgba(234, 179, 8, 0.25);
+      --accent-cyan: #06b6d4;
+      --accent-emerald: #10b981;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --radius-lg: 16px;
+      --radius-md: 10px;
+      --radius-sm: 6px;
+      --shadow-glow: 0 0 30px rgba(234, 179, 8, 0.15);
+      --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(234, 179, 8, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 75%, rgba(6, 182, 212, 0.08) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    /* HEADER & NAVIGATION */
+    header {
+      border-bottom: 1px solid var(--border-color);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background: rgba(8, 12, 20, 0.8);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, #eab308, #ca8a04);
+      color: #000;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 800;
+      font-size: 0.85rem;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      letter-spacing: 0.5px;
+    }
+
+    .brand-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #ffffff, #e2e8f0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .nav-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    .nav-link:hover {
+      color: var(--primary-gold);
+    }
+
+    .anorma-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(234, 179, 8, 0.1);
+      border: 1px solid var(--primary-gold);
+      color: var(--primary-gold);
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .anorma-btn:hover {
+      background: var(--primary-gold);
+      color: #000;
+      box-shadow: var(--shadow-glow);
+    }
+
+    /* HERO SECTION */
+    .hero {
+      padding: 4rem 1.5rem 3rem 1.5rem;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero-tag {
+      display: inline-block;
+      background: rgba(234, 179, 8, 0.12);
+      border: 1px solid rgba(234, 179, 8, 0.3);
+      color: var(--primary-gold);
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.75rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 2.5rem;
+    }
+
+    /* SEARCH BAR & FILTERS */
+    .search-box-wrapper {
+      position: relative;
+      max-width: 760px;
+      margin: 0 auto 2rem auto;
+    }
+
+    .search-input {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.9);
+      border: 2px solid var(--border-color);
+      padding: 1.2rem 1.5rem 1.2rem 3.5rem;
+      border-radius: var(--radius-lg);
+      color: var(--text-main);
+      font-size: 1.1rem;
+      outline: none;
+      transition: var(--transition);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .search-input:focus {
+      border-color: var(--primary-gold);
+      box-shadow: 0 0 25px rgba(234, 179, 8, 0.25);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 1.2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      font-size: 1.25rem;
+      pointer-events: none;
+    }
+
+    .category-pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 3rem;
+    }
+
+    .pill-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .pill-btn:hover, .pill-btn.active {
+      background: rgba(234, 179, 8, 0.15);
+      border-color: var(--primary-gold);
+      color: var(--primary-gold);
+    }
+
+    /* MAIN LAYOUT */
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem 1.5rem;
+      width: 100%;
+      flex: 1;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 24px;
+      margin-bottom: 4rem;
+    }
+
+    .norm-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      backdrop-filter: blur(12px);
+    }
+
+    .norm-card:hover {
+      border-color: var(--border-highlight);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .norm-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+
+    .rs-code {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      color: var(--primary-gold);
+      font-size: 0.95rem;
+      background: rgba(234, 179, 8, 0.1);
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(234, 179, 8, 0.2);
+    }
+
+    .jurisdiction-tag {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+
+    .norm-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 10px;
+      color: var(--text-main);
+    }
+
+    .norm-summary {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+    }
+
+    .articles-count {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      margin-bottom: 1rem;
+    }
+
+    .articles-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .article-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: var(--radius-md);
+      padding: 10px 14px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .article-item:hover {
+      background: rgba(234, 179, 8, 0.08);
+      border-color: rgba(234, 179, 8, 0.3);
+    }
+
+    .article-number {
+      font-weight: 700;
+      color: var(--text-main);
+      font-size: 0.9rem;
+    }
+
+    .article-title-snippet {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px;
+    }
+
+    .view-arrow {
+      color: var(--primary-gold);
+      font-weight:bold;
+    }
+
+    /* ARTICLES FEED SECTION */
+    .section-title-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+
+    .feed-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .feed-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      transition: var(--transition);
+    }
+
+    .feed-card:hover {
+      border-color: var(--accent-cyan);
+    }
+
+    .feed-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      margin-bottom: 10px;
+    }
+
+    .feed-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+
+    .feed-summary {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    /* MODAL */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal-content {
+      background: #0f172a;
+      border: 1px solid var(--border-highlight);
+      border-radius: var(--radius-lg);
+      max-width: 800px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 2rem;
+      position: relative;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: var(--text-muted);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+
+    .modal-close:hover {
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    .official-text-box {
+      background: rgba(0, 0, 0, 0.3);
+      border-left: 4px solid var(--accent-cyan);
+      padding: 1.2rem;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 1.2rem 0;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .interpretation-box {
+      background: rgba(234, 179, 8, 0.08);
+      border: 1px solid rgba(234, 179, 8, 0.3);
+      padding: 1.2rem;
+      border-radius: var(--radius-md);
+      margin: 1.2rem 0;
+    }
+
+    .interpretation-box h4 {
+      color: var(--primary-gold);
+      font-family: 'Space Grotesk', sans-serif;
+      margin-bottom: 8px;
+    }
+
+    .takeaways-list {
+      margin: 1rem 0 1.5rem 1.2rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .cta-anorma {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(135deg, rgba(234, 179, 8, 0.15), rgba(6, 182, 212, 0.15));
+      border: 1px solid var(--primary-gold);
+      padding: 1.2rem;
+      border-radius: var(--radius-md);
+      margin-top: 1.5rem;
+    }
+
+    /* INLINE LEGAL CITATION BADGES */
+    .legal-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(234, 179, 8, 0.12);
+      border: 1px solid rgba(234, 179, 8, 0.35);
+      color: var(--primary-gold);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: 'Space Grotesk', sans-serif;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      vertical-align: baseline;
+    }
+
+    .legal-badge:hover {
+      background: var(--primary-gold);
+      color: #000;
+      box-shadow: var(--shadow-glow);
+    }
+
+    /* MODE SWITCHER & LEGAL STUDIO UI */
+    .mode-switcher {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 2rem;
+    }
+
+    .mode-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 10px 22px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .mode-btn.active {
+      background: linear-gradient(135deg, rgba(234, 179, 8, 0.2), rgba(6, 182, 212, 0.2));
+      border-color: var(--primary-gold);
+      color: var(--primary-gold);
+      box-shadow: 0 0 20px rgba(234, 179, 8, 0.15);
+    }
+
+    .studio-panel {
+      display: none;
+      max-width: 860px;
+      margin: 0 auto 3rem auto;
+      text-align: left;
+    }
+
+    .studio-panel.active {
+      display: block;
+    }
+
+    .studio-input-box {
+      background: rgba(15, 23, 42, 0.95);
+      border: 2px solid var(--border-highlight);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.4);
+    }
+
+    .studio-textarea {
+      width: 100%;
+      background: transparent;
+      border: none;
+      color: var(--text-main);
+      font-size: 1.1rem;
+      font-family: 'Outfit', sans-serif;
+      outline: none;
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    .studio-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .data-sovereignty-badge {
+      font-size: 0.75rem;
+      color: var(--accent-emerald);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+    }
+
+    .studio-submit-btn {
+      background: linear-gradient(135deg, #eab308, #ca8a04);
+      color: #000;
+      border: none;
+      padding: 10px 24px;
+      border-radius: var(--radius-md);
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .studio-submit-btn:hover {
+      box-shadow: var(--shadow-glow);
+      transform: translateY(-2px);
+    }
+
+    .studio-response-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-highlight);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      margin-top: 1.5rem;
+      backdrop-filter: blur(12px);
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 0.9rem;
+      background: rgba(8, 12, 20, 0.9);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav-container">
+      <a href="nuova-norma.html" class="brand">
+        <span class="brand-badge">NNCH</span>
+        <span class="brand-title">Nuova-Norma.ch</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#ricerca" class="nav-link" onclick="switchMode('search')">Cerca Norme</a>
+        <a href="#studio" class="nav-link" onclick="switchMode('studio')">Legal Studio</a>
+        <a href="#articoli" class="nav-link">Articoli & Analisi</a>
+        <a href="index.html" class="anorma-btn">
+          <span>Legalizza su Anorma.ch</span>
+          <span>→</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <span class="hero-tag">FONTE UFFICIALE DI INTELLIGENZA LEGALE SVIZZERA</span>
+    <h1>Tutte le Norme Svizzere,<br>Interpretate per l'Era Digitale.</h1>
+    <p>Raccogliamo la giurisprudenza federale (RS) e cantonale dei 26 Cantoni. Forniamo analisi chiare con citazioni puntuali e ancoraggio rigoroso al diritto svizzero.</p>
+
+    <!-- MODE SWITCHER -->
+    <div class="mode-switcher">
+      <button class="mode-btn active" id="modeSearchBtn" onclick="switchMode('search')">🔍 Ricerca Normativa Rapida</button>
+      <button class="mode-btn" id="modeStudioBtn" onclick="switchMode('studio')">⚖️ Legal Studio</button>
+    </div>
+
+    <!-- SEARCH BAR (SEARCH MODE) -->
+    <div class="search-box-wrapper" id="searchPanel">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Cerca per numero RS (es. RS 235.1), parola chiave o articolo di legge...">
+    </div>
+
+    <!-- LEGAL STUDIO PANEL -->
+    <div class="studio-panel" id="studioPanel">
+      <div class="studio-input-box">
+        <textarea id="studioInput" class="studio-textarea" placeholder="Poni una domanda legale in linguaggio naturale (es. 'Quali garanzie servono per inviare dati personali fuori dalla Svizzera o dall'UE?')..."></textarea>
+        <div class="studio-controls">
+          <span class="data-sovereignty-badge">
+            <span>🛡️</span>
+            <span>Data Center Zurigo (Svizzera) • Strict Grounding nLPD</span>
+          </span>
+          <button class="studio-submit-btn" id="studioSubmitBtn" onclick="executeStudioQuery()">Analizza con Legal Studio →</button>
+        </div>
+      </div>
+
+
+      <div id="studioResultContainer" style="display: none;">
+        <!-- Dynamic Legal Studio Output -->
+      </div>
+    </div>
+
+    <!-- CATEGORY FILTERS -->
+    <div class="category-pills" id="categoryPills">
+      <button class="pill-btn active" data-category="ALL">Tutte le Norme</button>
+      <button class="pill-btn" data-category="Privacy & Data Protection">Privacy & nLPD (RS 235.1)</button>
+      <button class="pill-btn" data-category="Commercial & Corporate Law">Diritto Societario (CO RS 220)</button>
+      <button class="pill-btn" data-category="Civil & Corporate Law">Codice Civile (CC RS 210)</button>
+      <button class="pill-btn" data-category="Cantonal Data Protection">Cantoni (TI, ZH, BE)</button>
+      <button class="pill-btn" data-category="Judgments & Precedents">Giurisprudenza TF</button>
+    </div>
+  </section>
+
+  <!-- MAIN RESULTS -->
+  <main>
+    <div class="section-title-wrapper">
+      <h2 class="section-title" id="resultsTitle">Norme Svizzere In Evidenza</h2>
+      <span style="color: var(--text-dim); font-size: 0.9rem;" id="resultsStats">Caricamento in corso...</span>
+    </div>
+
+    <div class="results-grid" id="resultsContainer">
+      <!-- Dynamic JS population -->
+    </div>
+
+    <!-- ARTICLES FEED SECTION -->
+    <div class="section-title-wrapper" id="articoli" style="margin-top: 3rem;">
+      <h2 class="section-title">Articoli di Approfondimento & Interpretazione</h2>
+      <a href="#" style="color: var(--primary-gold); text-decoration: none; font-weight: 600; font-size: 0.9rem;">Vedi Tutti →</a>
+    </div>
+
+    <div class="feed-grid" id="feedContainer">
+      <!-- Dynamic JS population -->
+    </div>
+  </main>
+
+  <!-- MODAL ARTICLE READER -->
+  <div class="modal-overlay" id="articleModal">
+    <div class="modal-content" id="modalContent">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div id="modalBody">
+        <!-- Dynamic content -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 <strong>nuova-norma.ch (NNCH)</strong> — Il portale di riferimento per la normativa svizzera. Partner Ufficiale di <strong>anorma.ch</strong>.</p>
+  </footer>
+
+  <script>
+    let currentCategory = 'ALL';
+    let currentMode = 'search';
+
+    // Global studio handler for citation badge clicks
+    window.nnchStudio = {
+      openModal: function(articleId) {
+        openArticleModal(articleId);
+      }
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchResults('');
+      fetchFeed();
+
+      // Search input handler
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          fetchResults(e.target.value);
+        });
+      }
+
+      // Category Pill handlers
+      const pills = document.querySelectorAll('.pill-btn');
+      pills.forEach(pill => {
+        pill.addEventListener('click', (e) => {
+          pills.forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+          currentCategory = pill.getAttribute('data-category');
+          if (currentMode === 'search') {
+            fetchResults(searchInput.value);
+          }
+        });
+      });
+
+      // Modal Close
+      document.getElementById('modalClose').addEventListener('click', closeModal);
+      document.getElementById('articleModal').addEventListener('click', (e) => {
+        if (e.target.id === 'articleModal') closeModal();
+      });
+    });
+
+    function switchMode(mode) {
+      currentMode = mode;
+      const searchBtn = document.getElementById('modeSearchBtn');
+      const studioBtn = document.getElementById('modeStudioBtn');
+      const searchPanel = document.getElementById('searchPanel');
+      const studioPanel = document.getElementById('studioPanel');
+
+      if (mode === 'studio') {
+        searchBtn.classList.remove('active');
+        studioBtn.classList.add('active');
+        searchPanel.style.display = 'none';
+        studioPanel.classList.add('active');
+      } else {
+        studioBtn.classList.remove('active');
+        searchBtn.classList.add('active');
+        studioPanel.classList.remove('active');
+        searchPanel.style.display = 'block';
+      }
+    }
+
+    async function executeStudioQuery() {
+      const input = document.getElementById('studioInput');
+      const submitBtn = document.getElementById('studioSubmitBtn');
+      const container = document.getElementById('studioResultContainer');
+      const prompt = input.value.trim();
+
+      if (!prompt) return;
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Analisi in corso...';
+      container.style.display = 'block';
+      container.innerHTML = `<div style="text-align: center; padding: 2rem; color: var(--text-dim);">Analisi semantica in corso con ancoraggio al Diritto Svizzero...</div>`;
+
+
+      try {
+        const res = await fetch('/api/nuova-norma/studio', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt, category: currentCategory, jurisdiction: 'ALL', lang: 'it' })
+        });
+        const json = await res.json();
+
+        if (json.success && json.data) {
+          const d = json.data;
+          container.innerHTML = `
+            <div class="studio-response-card">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
+                <span style="font-size:0.8rem; color:var(--accent-emerald); font-weight:600;">✓ Grounded da ${d.provider}</span>
+                <span style="font-size:0.8rem; color:var(--text-dim);">${d.latencyMs}ms • Confidential session</span>
+              </div>
+              <div style="line-height:1.7; font-size:1.05rem;">${formatMarkdown(d.response.markdown)}</div>
+            </div>
+          `;
+        }
+      } catch (err) {
+        console.error('Studio Error:', err);
+        container.innerHTML = `<div style="color:#ef4444; padding:1rem;">Errore durante l'analisi. Riprova più tardi.</div>`;
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Analizza con Legal Studio →';
+      }
+    }
+
+    function formatMarkdown(text) {
+      if (!text) return '';
+      return text
+        .replace(/### (.*)/g, '<h3 style="color:var(--primary-gold); font-family:\'Space Grotesk\',sans-serif; margin-bottom:12px;">$1</h3>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/> (.*)/g, '<blockquote style="border-left:3px solid var(--accent-cyan); padding-left:12px; margin:12px 0; color:var(--text-muted);">$1</blockquote>')
+        .replace(/\n/g, '<br>');
+    }
+
+    async function fetchResults(query = '') {
+      try {
+        const url = `/api/nuova-norma/search?q=${encodeURIComponent(query)}&category=${encodeURIComponent(currentCategory)}`;
+        const res = await fetch(url);
+        const json = await res.json();
+
+        if (json.success) {
+          renderNorms(json.data.results);
+          document.getElementById('resultsStats').textContent = `${json.data.normsCount} codice/i, ${json.data.count} articolo/i trovati`;
+        }
+      } catch (err) {
+        console.error('Error fetching search results:', err);
+      }
+    }
+
+    function renderNorms(norms) {
+      const container = document.getElementById('resultsContainer');
+      if (!norms || norms.length === 0) {
+        container.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: 3rem; background: var(--bg-card); border-radius: var(--radius-lg);">
+            <p style="color: var(--text-muted); font-size: 1.1rem;">Nessuna norma trovata per la ricerca specificata.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = norms.map(norm => `
+        <div class="norm-card">
+          <div>
+            <div class="norm-header">
+              <span class="rs-code">${norm.rsNumber}</span>
+              <span class="jurisdiction-tag">${norm.jurisdiction}</span>
+            </div>
+            <h3 class="norm-title">${norm.title}</h3>
+            <p class="norm-summary">${norm.summary}</p>
+            <div class="articles-count">Articoli interpretati: ${norm.articles.length}</div>
+            
+            <div class="articles-list">
+              ${norm.articles.map(art => `
+                <div class="article-item" onclick="openArticleModal('${art.id}')">
+                  <div>
+                    <span class="article-number">${art.articleNumber}</span>
+                    <span class="article-title-snippet"> — ${art.title}</span>
+                  </div>
+                  <span class="view-arrow">→</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    async function fetchFeed() {
+      try {
+        const res = await fetch('/api/nuova-norma/feed');
+        const json = await res.json();
+        if (json.success) {
+          renderFeed(json.data);
+        }
+      } catch (err) {
+        console.error('Error fetching feed:', err);
+      }
+    }
+
+    function renderFeed(feed) {
+      const container = document.getElementById('feedContainer');
+      container.innerHTML = feed.map(item => `
+        <div class="feed-card">
+          <div class="feed-meta">
+            <span>${item.date}</span>
+            <span style="color: var(--primary-gold);">${item.rsReference}</span>
+          </div>
+          <h4 class="feed-title">${item.title}</h4>
+          <p class="feed-summary">${item.summary}</p>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px;">
+            ${item.tags.map(t => `<span style="font-size:0.75rem; background:rgba(255,255,255,0.05); padding:2px 8px; border-radius:4px; color:var(--text-muted);">${t}</span>`).join('')}
+          </div>
+          <div style="font-size: 0.8rem; color: var(--text-dim); text-align: right;">${item.readTime} • ${item.author}</div>
+        </div>
+      `).join('');
+    }
+
+    async function openArticleModal(articleId) {
+      try {
+        const res = await fetch(`/api/nuova-norma/article/${articleId}`);
+        const json = await res.json();
+        if (json.success) {
+          const d = json.data;
+          const art = d.article;
+
+          const modalBody = document.getElementById('modalBody');
+          modalBody.innerHTML = `
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom: 10px;">
+              <span class="rs-code">${d.normRsNumber}</span>
+              <span class="jurisdiction-tag">${d.jurisdiction}</span>
+            </div>
+            <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; margin-bottom: 8px;">${art.articleNumber}: ${art.title}</h2>
+            <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 1.5rem;">${d.normTitle}</p>
+
+            <h4 style="color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px;">Testo Ufficiale della Legge:</h4>
+            <div class="official-text-box">
+              "${art.officialText}"
+            </div>
+
+            <div class="interpretation-box">
+              <h4>Interpretazione Pratica (NNCH):</h4>
+              <p style="line-height: 1.6; color: var(--text-main);">${art.interpretation}</p>
+            </div>
+
+            <h4 style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1.5rem; text-transform: uppercase; letter-spacing: 0.5px;">Punti Chiave per la Compliance:</h4>
+            <ul class="takeaways-list">
+              ${art.keyTakeaways.map(k => `<li>${k}</li>`).join('')}
+            </ul>
+
+            <div class="cta-anorma">
+              <div>
+                <strong style="color: var(--text-main); font-size: 1rem;">Vuoi mettere a norma la tua applicazione?</strong>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">Genera un documento legale vettoriale compliant con ${art.articleNumber}.</p>
+              </div>
+              <a href="${d.anormaIntegration.generatorUrl}" class="anorma-btn">
+                <span>Legalizza su Anorma.ch</span>
+                <span>→</span>
+              </a>
+            </div>
+          `;
+
+          document.getElementById('articleModal').classList.add('open');
+        }
+      } catch (err) {
+        console.error('Error opening article modal:', err);
+      }
+    }
+
+    function closeModal() {
+      document.getElementById('articleModal').classList.remove('open');
+    }
+  </script>
+</body>
+</html>
+

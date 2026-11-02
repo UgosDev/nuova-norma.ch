@@ -1,0 +1,31 @@
+# Banco di prova di Nuova-Norma. Una domanda per riga; le righe con # sono commenti.
+# Modificalo liberamente. Lancio:  py -m nn valuta
+# Le stesse domande vanno poste a Omnilex (o a un altro strumento) per il confronto.
+
+# --- Diritto federale in vigore ---
+Quando devo notificare una violazione della sicurezza dei dati?
+Per quanto tempo devo conservare i libri contabili e i documenti commerciali?
+Quali sono i termini di disdetta di un contratto di lavoro dopo il periodo di prova?
+Con che preavviso posso disdire un contratto di locazione di un'abitazione?
+Dopo quanto tempo si prescrivono in generale i crediti?
+Una società anonima può tenere l'assemblea generale in forma virtuale?
+Ho comprato un prodotto online: posso restituirlo entro 14 giorni?
+Quali informazioni devo dare a chi mi affida i suoi dati personali?
+Una persona può chiedermi quali dati ho su di lei? Cosa devo rispondere?
+
+# --- Cambiamenti in arrivo e dibattito ---
+Cosa cambia a livello federale nelle prossime settimane?
+Ci sono consultazioni federali aperte che riguardano la protezione dei dati o le scuole?
+Quali oggetti parlamentari recenti riguardano la protezione dei dati?
+
+# --- Giurisprudenza ---
+Cosa ha deciso il Tribunale federale sul diritto di accesso ai dati personali?
+
+# --- Diritto cantonale (Ticino) ---
+Quali leggi ticinesi regolano la protezione dei dati personali?
+Cosa prevede il Cantone Ticino sulle pubblicazioni ufficiali?
+
+# --- Domande che oggi non sappiamo ancora affrontare: la risposta onesta e "non e nelle mie fonti" ---
+Quante volte il popolo svizzero ha votato su iniziative riguardanti l'AVS?
+Cosa prevede il GDPR europeo sulla notifica di una violazione dei dati?
+Cosa dice la dottrina sul concetto di rischio elevato nella nLPD?

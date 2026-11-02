@@ -1,0 +1,5117 @@
+[
+ {
+  "id": "stato",
+  "nome": "Stato e autorità pubbliche",
+  "descrizione": "istituzioni della Confederazione e dei Cantoni, parlamento, tribunali, diritti politici, cittadinanza e rapporti con gli Stati esteri",
+  "non_confondere": [
+   "impiegati privati: contratto-lavoro",
+   "tasse e imposte: finanze"
+  ],
+  "esempi": [
+   "Come funziona il voto per posta in Svizzera?",
+   "Quali sono i compiti principali del Consiglio federale?"
+  ],
+  "rs": [
+   "101",
+   "171",
+   "172",
+   "173"
+  ],
+  "atti": [
+   "101",
+   "171.10",
+   "172.220.111.3",
+   "173.110"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Cancelleria federale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "parlamento",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "diritto-penale",
+   "finanze",
+   "diritto-cantonale-ticinese"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-privato",
+  "nome": "Diritto privato e contratti",
+  "descrizione": "rapporti tra persone e famiglie, accordi tra privati, contratti, affitti, acquisti, eredità, risarcimenti per danni e debiti",
+  "non_confondere": [
+   "reati e polizia: diritto-penale",
+   "permessi edilizi comunali: pianificazione-del-territorio"
+  ],
+  "esempi": [
+   "Un contratto firmato a voce è valido?",
+   "Cosa posso fare se un debitore non mi paga quanto pattuito?"
+  ],
+  "rs": [
+   "210",
+   "220",
+   "281"
+  ],
+  "atti": [
+   "210",
+   "220",
+   "281.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "stato",
+   "diritto-penale",
+   "economia",
+   "responsabilita-civile"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-penale",
+  "nome": "Diritto penale e reati",
+  "descrizione": "comportamenti vietati puniti con multe o prigione, denunce alla polizia, indagini del procuratore, processi penali e risarcimento vittime",
+  "non_confondere": [
+   "multe per divieto di sosta: circolazione-stradale",
+   "cause per soldi tra privati: diritto-privato"
+  ],
+  "esempi": [
+   "Come faccio a fare una denuncia in polizia?",
+   "Cosa rischio se non mi presento all'interrogatorio del procuratore?"
+  ],
+  "rs": [
+   "311",
+   "312",
+   "314"
+  ],
+  "atti": [
+   "311.0",
+   "312.0",
+   "314.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "stato",
+   "diritto-privato",
+   "polizia-e-sicurezza",
+   "circolazione-stradale"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "scuola-e-cultura",
+  "nome": "Scuola, formazione e cultura",
+  "descrizione": "asili, scuole dell'obbligo, apprendistato professionale, liceo, università, borse di studio, musei, monumenti storici e tutela degli animali",
+  "non_confondere": [
+   "contratto di lavoro per adulti: contratto-lavoro",
+   "corsi di guida per patente: circolazione-stradale"
+  ],
+  "esempi": [
+   "Come funziona l'iscrizione a un tirocinio professionale?",
+   "Chi può richiedere una borsa di studio per l'università?"
+  ],
+  "rs": [
+   "410",
+   "412",
+   "414",
+   "442",
+   "455"
+  ],
+  "atti": [
+   "412.10",
+   "414.110",
+   "442.1",
+   "455"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "SEFRI"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "stato",
+   "sanita-e-sicurezza-sociale",
+   "formazione-professionale",
+   "protezione-animali"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "difesa",
+  "nome": "Difesa nazionale ed esercito",
+  "descrizione": "obbligo di prestare servizio nell'esercito, scuola reclute, corsi di ripetizione, protezione civile, rifugi, armi da fuoco e munizioni",
+  "non_confondere": [
+   "sicurezza cittadina e polizia locale: polizia-e-sicurezza",
+   "servizio civile sostitutivo: servizio-civile"
+  ],
+  "esempi": [
+   "A che età arriva la convocazione per la scuola reclute?",
+   "Posso tenere l'arma militare a casa dopo il congedo?"
+  ],
+  "rs": [
+   "510",
+   "512",
+   "514",
+   "520"
+  ],
+  "atti": [
+   "510.10",
+   "512.21",
+   "514.54",
+   "520.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "DDPS"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "parlamento"
+  ],
+  "collegati": [
+   "stato",
+   "servizio-militare-ed-esercito",
+   "armi-e-munizioni",
+   "tassa-militare"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "finanze",
+  "nome": "Finanze pubbliche e imposte",
+  "descrizione": "tasse sul reddito, dichiarazione fiscale, imposta preventiva, imposta sul valore aggiunto, dazi doganali per acquisti esteri e spese pubbliche",
+  "non_confondere": [
+   "prestiti bancari tra privati: banche-e-risparmi",
+   "debiti non pagati ed esecuzioni: esecuzione-e-fallimento"
+  ],
+  "esempi": [
+   "Quando scade il termine per inviare la dichiarazione fiscale?",
+   "Quanto posso portare in Svizzera senza pagare la dogana?"
+  ],
+  "rs": [
+   "611",
+   "631",
+   "641",
+   "642"
+  ],
+  "atti": [
+   "611.0",
+   "631.0",
+   "641.201",
+   "642.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "AFC",
+   "UDSC"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "economia",
+   "imposte-dirette-e-reddito",
+   "dogane-e-importazioni"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "trasporti",
+  "nome": "Lavori pubblici, energia e trasporti",
+  "descrizione": "strade, automobili, treni, aerei, fornitura di corrente elettrica, dighe, case secondarie, pianificazione del territorio e servizi di posta",
+  "non_confondere": [
+   "incidenti sul lavoro: assicurazione-infortuni",
+   "compravendita di automobili: compravendita"
+  ],
+  "esempi": [
+   "Chi gestisce la manutenzione delle strade del comune?",
+   "Come posso contestare un aumento della bolletta elettrica?"
+  ],
+  "rs": [
+   "700",
+   "725",
+   "730",
+   "741",
+   "783"
+  ],
+  "atti": [
+   "700",
+   "725.11",
+   "730.0",
+   "741.01",
+   "783.0"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "DATEC",
+   "USTRA",
+   "UFT",
+   "UFCOM"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "circolazione-stradale",
+   "strade-nazionali",
+   "energia-elettrica",
+   "pianificazione-del-territorio"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "sanita-e-sicurezza-sociale",
+  "nome": "Sanità, lavoro e sicurezza sociale",
+  "descrizione": "ospedali, medici, farmaci, pensioni di vecchiaia, rendite di invalidità, assicurazione contro disoccupazione o infortuni e protezione del lavoratore",
+  "non_confondere": [
+   "stipendio e ferie nel contratto privato: contratto-lavoro",
+   "risarcimento da incidente stradale: responsabilita-civile"
+  ],
+  "esempi": [
+   "Quali cure mediche sono pagate dalla cassa malati obbligatoria?",
+   "A chi mi rivolgo se perdo improvvisamente il posto di lavoro?"
+  ],
+  "rs": [
+   "822",
+   "830",
+   "831",
+   "832",
+   "837"
+  ],
+  "atti": [
+   "822.11",
+   "830.1",
+   "831.40",
+   "832.10",
+   "837.0"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFSP",
+   "UFAS",
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "assicurazione-malattie",
+   "avs-vecchiaia-e-superstiti",
+   "disoccupazione",
+   "sicurezza-e-salute-sul-lavoro"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "economia",
+  "nome": "Economia e commercio",
+  "descrizione": "negozi, banche, aziende, investimenti finanziari, commercio di prodotti, tutela del consumatore, agricoltura, boschi, caccia, pesca e concorrenza",
+  "non_confondere": [
+   "società commerciali e statuti: societa-commerciali",
+   "fallimento di persone o debiti privati: esecuzione-e-fallimento"
+  ],
+  "esempi": [
+   "Come si apre un negozio al dettaglio in Svizzera?",
+   "Quali regole valgono per vendere merce durante un mercato rionale?"
+  ],
+  "rs": [
+   "910",
+   "930",
+   "942",
+   "950",
+   "952"
+  ],
+  "atti": [
+   "910.1",
+   "930.11",
+   "942.20",
+   "950.1",
+   "952.0"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SECO",
+   "FINMA"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "finanze",
+   "banche-e-risparmi",
+   "diritto-dei-consumatori"
+  ],
+  "padre": null,
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-cantonale-ticinese",
+  "nome": "Diritto cantonale ticinese",
+  "descrizione": "leggi e regolamenti specifici del Cantone Ticino, uffici cantonali di Bellinzona e Lugano, polizia cantonale, tasse cantonali e sussidi locali",
+  "non_confondere": [
+   "leggi federali valide in tutta la Svizzera: stato",
+   "ordinanze e regolamenti di un singolo comune: pianificazione-del-territorio"
+  ],
+  "esempi": [
+   "La legge edilizia del Cantone Ticino cosa prevede per la distanza dai confini?",
+   "Come posso richiedere il sussidio di cassa malati cantonale in Ticino?",
+   "Quali sono gli orari di apertura dei negozi secondo la legge ticinese?"
+  ],
+  "rs": [
+   "101",
+   "131"
+  ],
+  "atti": [
+   "101",
+   "131.234"
+  ],
+  "livelli": [
+   "cantonale",
+   "comunale"
+  ],
+  "squadre": [
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "pianificazione-del-territorio",
+   "imposte-dirette-e-reddito",
+   "assistenza-sociale-e-bisogno"
+  ],
+  "padre": "stato",
+  "soglia": 0.4,
+  "note": "La Costituzione del Cantone Ticino (RS 131.229) non figura tra i 3 atti del prefisso 131 nel materiale; usata RS 101 per i principi generali di autonomia cantonale e 131.234."
+ },
+ {
+  "id": "responsabilita-civile",
+  "nome": "Responsabilità civile e risarcimento",
+  "descrizione": "danni provocati ad altre persone o alle loro cose, risarcimento spese, colpa, responsabilità per animali, caduta di tegole e incidenti",
+  "non_confondere": [
+   "reati penali puniti con carcere o multa dello Stato: diritto-penale",
+   "polizza assicurativa stipulata: assicurazioni-private"
+  ],
+  "esempi": [
+   "Il mio cane ha morso un passante: devo risarcire le spese mediche?",
+   "Un vaso caduto dal mio balcone ha danneggiato un'auto: chi paga?",
+   "Sono scivolato sulle scale ghiacciate del condominio: posso chiedere i danni?"
+  ],
+  "rs": [
+   "220"
+  ],
+  "atti": [
+   "220"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "circolazione-stradale",
+   "assicurazioni-private",
+   "contratti-e-obbligazioni"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Disciplina fondata sull'art. 41 e segg. del Codice delle obbligazioni RS 220."
+ },
+ {
+  "id": "procedura-e-termini",
+  "nome": "Procedura e termini per difendersi",
+  "descrizione": "ricorsi contro decisioni delle autorità, scadenze, opposizioni scritte, prescrizione di debiti, calcolo dei giorni festivi e difensore d'ufficio",
+  "non_confondere": [
+   "regole sul processo penale per reati: procedura-penale",
+   "cause civili in pretura: diritto-privato"
+  ],
+  "esempi": [
+   "Entro quanti giorni posso fare ricorso contro una decisione dell'ufficio?",
+   "Come si calcolano i termini se l'ultimo giorno cade di domenica?",
+   "Dopo quanti anni cade in prescrizione una fattura non pagata?"
+  ],
+  "rs": [
+   "173",
+   "272",
+   "312",
+   "830"
+  ],
+  "atti": [
+   "173.110",
+   "272",
+   "312.0",
+   "830.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "stato",
+   "diritto-privato",
+   "esecuzione-e-fallimento",
+   "tribunali-e-giustizia"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "protezione-dati",
+  "nome": "Protezione dei dati personali",
+  "descrizione": "privacy, trattamento di informazioni personali, telecamere di videosorveglianza, cancellazione di dati su internet, consenso e furto d'identità",
+  "non_confondere": [
+   "segreto bancario degli istituti di credito: banche-e-risparmi",
+   "intercettazioni telefoniche della polizia: polizia-e-sicurezza"
+  ],
+  "esempi": [
+   "Il mio vicino può puntare una telecamera verso il mio giardino?",
+   "Come posso chiedere a un sito web di cancellare i miei dati personali?",
+   "Il mio datore di lavoro può leggere le mie email private sul lavoro?"
+  ],
+  "rs": [
+   "235"
+  ],
+  "atti": [
+   "235.1",
+   "235.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "IFPDT"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "telecomunicazioni-e-media",
+   "polizia-e-sicurezza",
+   "contratto-lavoro"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-dei-consumatori",
+  "nome": "Diritto dei consumatori",
+  "descrizione": "acquisti nei negozi, contratti stipulati al telefono o a domicilio, diritto di ripensamento, prezzi ingannevoli, garanzia legale e prodotti difettosi",
+  "non_confondere": [
+   "contratti tra grandi aziende: societa-commerciali",
+   "sicurezza tecnica e omologazione dei macchinari: sicurezza-dei-prodotti"
+  ],
+  "esempi": [
+   "Ho comprato un prodotto su internet: ho il diritto di ripensamento entro 14 giorni?",
+   "Il televisore si è rotto dopo sei mesi: il venditore deve ripararlo gratis?",
+   "Posso annullare un contratto stipulato con un venditore porta a porta?"
+  ],
+  "rs": [
+   "220",
+   "241",
+   "944"
+  ],
+  "atti": [
+   "220",
+   "241",
+   "944.0",
+   "944.3"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "compravendita",
+   "concorrenza-sleale",
+   "prezzi-e-sorveglianza",
+   "economia"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-ue-in-svizzera",
+  "nome": "Diritto UE che vale in Svizzera",
+  "descrizione": "accordi bilaterali con l'Unione Europea, libera circolazione dei lavoratori, accordo di Schengen alle frontiere, norme europee recepite dalla Svizzera",
+  "non_confondere": [
+   "leggi nazionali interne svizzere: stato",
+   "dazi doganali per merci da paesi extraeuropei: dogane-e-importazioni"
+  ],
+  "esempi": [
+   "Un cittadino italiano può trasferirsi a lavorare in Svizzera senza visto?",
+   "Quali controlli ci sono alla dogana per chi viaggia nei paesi dell'area Schengen?",
+   "I diplomi universitari conseguiti nell'Unione Europea sono riconosciuti in Svizzera?"
+  ],
+  "rs": [
+   "142",
+   "362"
+  ],
+  "atti": [
+   "142.20",
+   "362"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "squadre": [
+   "federale",
+   "ue",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "stato",
+   "stranieri-e-integrazione",
+   "dogane-e-importazioni",
+   "polizia-e-sicurezza"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "costituzione-e-diritti-fondamentali",
+  "nome": "Costituzione e diritti fondamentali",
+  "descrizione": "libertà personale, parità tra uomo e donna, divieto di discriminazione, libertà di parola, credo religioso e diritti garantiti dalla Costituzione",
+  "non_confondere": [
+   "diritti di voto ed elezioni: diritti-politici-e-votazioni",
+   "tutela dei dati informatici: protezione-dati"
+  ],
+  "esempi": [
+   "Un datore di lavoro può vietare a una dipendente di indossare il velo?",
+   "La Costituzione federale garantisce il diritto di manifestare pacificamente in piazza?"
+  ],
+  "rs": [
+   "101",
+   "151"
+  ],
+  "atti": [
+   "101",
+   "151.3"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "stato",
+   "diritti-politici-e-votazioni",
+   "trasparenza-amministrazione",
+   "procedura-e-termini"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "cittadinanza-e-passaporto",
+  "nome": "Cittadinanza e passaporto",
+  "descrizione": "ottenimento del passaporto svizzero, carta d'identità, naturalizzazione ordinaria e agevolata, requisiti di integrazione e perdita della cittadinanza",
+  "non_confondere": [
+   "permessi di soggiorno per stranieri: stranieri-e-integrazione",
+   "atti di nascita e matrimonio: famiglia-e-divorzio"
+  ],
+  "esempi": [
+   "Quanti anni devo vivere in Svizzera prima di chiedere la naturalizzazione?",
+   "Cosa serve per rinnovare la carta d'identità svizzera scaduta?"
+  ],
+  "rs": [
+   "141",
+   "143"
+  ],
+  "atti": [
+   "141.0",
+   "141.01",
+   "143.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "SEM"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "stranieri-e-integrazione",
+   "diritti-politici-e-votazioni",
+   "svizzeri-all-estero"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "stranieri-e-integrazione",
+  "nome": "Stranieri e permessi di soggiorno",
+  "descrizione": "permessi di dimora B, domicilio C, frontalieri G, ricongiungimento familiare, corsi di lingua e contratti di integrazione per cittadini stranieri",
+  "non_confondere": [
+   "domande di rifugio per persecuzioni: asilo-e-rifugiati",
+   "richiesta di passaporto svizzero: cittadinanza-e-passaporto"
+  ],
+  "esempi": [
+   "Quali documenti servono per il ricongiungimento familiare di mia moglie?",
+   "Dopo quanti anni di permesso B posso richiedere il permesso di domicilio C?"
+  ],
+  "rs": [
+   "142"
+  ],
+  "atti": [
+   "142.20",
+   "142.201"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SEM"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "cittadinanza-e-passaporto",
+   "asilo-e-rifugiati",
+   "diritto-ue-in-svizzera"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "asilo-e-rifugiati",
+  "nome": "Asilo e rifugiati",
+  "descrizione": "richiesta di asilo alla frontiera, permessi N e F, alloggi nei centri federali d'asilo, espulsioni e protezione per persone perseguitate",
+  "non_confondere": [
+   "lavoratori stranieri con regolare contratto: stranieri-e-integrazione",
+   "soccorso svizzero in paesi colpiti da guerre: cooperazione-e-aiuto-umanitario"
+  ],
+  "esempi": [
+   "Cosa succede se la mia domanda d'asilo viene respinta dalle autorità?",
+   "Chi ha un permesso F per ammissione provvisoria può lavorare in Svizzera?"
+  ],
+  "rs": [
+   "142"
+  ],
+  "atti": [
+   "142.31"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SEM"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "stranieri-e-integrazione",
+   "diritto-ue-in-svizzera",
+   "assistenza-sociale-e-bisogno"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "diritti-politici-e-votazioni",
+  "nome": "Diritti politici e votazioni",
+  "descrizione": "votazioni popolari federali e cantonali, referendum contro nuove leggi, iniziative per cambiare la Costituzione, firme richieste e schede elettorali",
+  "non_confondere": [
+   "regolamenti interni del parlamento: parlamento-e-governo",
+   "diritto di petizione o reclamo generico: costituzione-e-diritti-fondamentali"
+  ],
+  "esempi": [
+   "Quante firme servono per lanciare un referendum federale?",
+   "Gli svizzeri all'estero possono votare elettronicamente alle elezioni federali?"
+  ],
+  "rs": [
+   "161"
+  ],
+  "atti": [
+   "161.1",
+   "161.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Cancelleria federale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "parlamento"
+  ],
+  "collegati": [
+   "stato",
+   "costituzione-e-diritti-fondamentali",
+   "parlamento-e-governo",
+   "svizzeri-all-estero"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "parlamento-e-governo",
+  "nome": "Parlamento e governo federale",
+  "descrizione": "Consiglio nazionale, Consiglio degli Stati, Consiglio federale, ministri, sedute delle camere, approvazione delle leggi e controllo sull'amministrazione pubblica",
+  "non_confondere": [
+   "votazioni popolari dei cittadini: diritti-politici-e-votazioni",
+   "sentenze dei giudici: tribunali-e-giustizia"
+  ],
+  "esempi": [
+   "Come fa una proposta di legge a essere approvata dal Parlamento?",
+   "Quali sono le competenze del Consiglio federale rispetto al Parlamento?"
+  ],
+  "rs": [
+   "170",
+   "171"
+  ],
+  "atti": [
+   "171.10",
+   "170.32",
+   "170.512"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "squadre": [
+   "federale",
+   "parlamento"
+  ],
+  "collegati": [
+   "stato",
+   "diritti-politici-e-votazioni",
+   "tribunali-e-giustizia",
+   "impiego-pubblico-federale"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "impiego-pubblico-federale",
+  "nome": "Impiego pubblico federale",
+  "descrizione": "rapporto di lavoro dei dipendenti dell'amministrazione della Confederazione, stipendi federali, orari di servizio, promozioni, congedi e licenziamento statale",
+  "non_confondere": [
+   "contratti di lavoro tra ditte private e operai: contratto-lavoro",
+   "funzionari di un comune o cantone: diritto-cantonale-ticinese"
+  ],
+  "esempi": [
+   "Quali tutele ha un dipendente federale contro il licenziamento ingiustificato?",
+   "Come funzionano le classi di stipendio per il personale della Confederazione?"
+  ],
+  "rs": [
+   "172"
+  ],
+  "atti": [
+   "172.220.111.3"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "DFF"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "contratto-lavoro",
+   "sicurezza-e-salute-sul-lavoro",
+   "previdenza-professionale"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "tribunali-e-giustizia",
+  "nome": "Tribunali e organizzazione giudiziaria",
+  "descrizione": "Tribunale federale a Losanna, preture, corti d'appello, giudici, ricorsi giudiziari, spese di giustizia e patrocinio gratuito dello Stato",
+  "non_confondere": [
+   "procedura per l'incasso forzato di un credito: esecuzione-e-fallimento",
+   "indagini preliminari della polizia: procedura-penale"
+  ],
+  "esempi": [
+   "Quando è possibile presentare ricorso al Tribunale federale contro una sentenza?",
+   "Come posso richiedere il gratuito patrocinio se non ho i soldi per l'avvocato?"
+  ],
+  "rs": [
+   "173"
+  ],
+  "atti": [
+   "173.110",
+   "173.71"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "stato",
+   "procedura-e-termini",
+   "diritto-privato",
+   "diritto-penale"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "trasparenza-amministrazione",
+  "nome": "Trasparenza dell'amministrazione",
+  "descrizione": "diritto dei cittadini di consultare documenti e dossier degli uffici pubblici, principio di trasparenza, archivi della Confederazione e segreto d'ufficio",
+  "non_confondere": [
+   "tutela della riservatezza dei propri dati: protezione-dati",
+   "dati personali nel fascicolo sanitario: cartella-informatizzata-paziente"
+  ],
+  "esempi": [
+   "Posso chiedere di visionare un rapporto ufficiale redatto da un ufficio federale?",
+   "Un ufficio pubblico può rifiutarsi di mostrarmi gli atti di una gara d'appalto?"
+  ],
+  "rs": [
+   "152"
+  ],
+  "atti": [
+   "152.1",
+   "152.31"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "IFPDT"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "protezione-dati",
+   "parlamento-e-governo",
+   "tribunali-e-giustizia"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "svizzeri-all-estero",
+  "nome": "Svizzeri all'estero",
+  "descrizione": "cittadini elvetici residenti fuori dalla Svizzera, immatricolazione consolare, passaporti all'ambasciata, diritti di voto da paesi esteri e rimpatri di emergenza",
+  "non_confondere": [
+   "stranieri che vivono in Svizzera: stranieri-e-integrazione",
+   "accordi commerciali e diplomatici: cooperazione-e-aiuto-umanitario"
+  ],
+  "esempi": [
+   "Come posso rinnovare il passaporto svizzero se vivo stabilmente all'estero?",
+   "Posso votare per corrispondenza alle elezioni federali se risiedo all'estero?"
+  ],
+  "rs": [
+   "195"
+  ],
+  "atti": [
+   "195.1",
+   "195.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "DFAE"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "stato",
+   "cittadinanza-e-passaporto",
+   "diritti-politici-e-votazioni",
+   "avs-vecchiaia-e-superstiti"
+  ],
+  "padre": "stato",
+  "soglia": 0.4
+ },
+ {
+  "id": "locazione",
+  "nome": "Locazione e affitto",
+  "descrizione": "affitto di appartamenti e negozi, canone di pigione, aumenti dell'affitto, disdetta, cauzione bancaria, spese accessorie di riscaldamento e sfratto",
+  "non_confondere": [
+   "acquisto di una casa: compravendita",
+   "liti per il confine o piante tra proprietari: proprieta-e-vicinato"
+  ],
+  "esempi": [
+   "Il proprietario può aumentarmi l'affitto se il tasso di riferimento sale?",
+   "Come posso contestare una disdetta del contratto di locazione?",
+   "Entro quanto tempo l'inquilino ha diritto a riavere la cauzione dopo il trasloco?"
+  ],
+  "rs": [
+   "220"
+  ],
+  "atti": [
+   "220"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFCL"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "proprieta-e-vicinato",
+   "compravendita",
+   "contratti-e-obbligazioni"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "La locazione è regolata dagli art. 253 e segg. del Codice delle obbligazioni RS 220."
+ },
+ {
+  "id": "contratto-lavoro",
+  "nome": "Contratto di lavoro",
+  "descrizione": "rapporti tra datore e dipendente, stipendio, ore di lavoro, ferie annuali pagate, periodo di prova, disdetta del contratto e licenziamento",
+  "non_confondere": [
+   "indennità della cassa disoccupazione: disoccupazione",
+   "dipendenti dell'amministrazione federale: impiego-pubblico-federale"
+  ],
+  "esempi": [
+   "Il datore di lavoro può licenziarmi mentre sono assente per malattia?",
+   "Quanti giorni di vacanza all'anno mi spettano per legge?",
+   "Come vengono conteggiate e pagate le ore di straordinario non recuperate?"
+  ],
+  "rs": [
+   "220",
+   "822"
+  ],
+  "atti": [
+   "220",
+   "822.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "sicurezza-e-salute-sul-lavoro",
+   "disoccupazione",
+   "previdenza-professionale"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Contratto di lavoro disciplinato agli art. 319 e segg. del Codice delle obbligazioni RS 220 e dalla Legge sul lavoro 822.11."
+ },
+ {
+  "id": "compravendita",
+  "nome": "Compravendita e garanzia",
+  "descrizione": "acquisto di cose mobili e immobili, merce difettosa, garanzia legale di due anni, reso dell'oggetto, fatture non pagate e contratti d'acquisto",
+  "non_confondere": [
+   "contratti di affitto: locazione",
+   "tutela specifica dei consumatori: diritto-dei-consumatori"
+  ],
+  "esempi": [
+   "Cosa posso fare se l'auto usata comprata da un privato si rompe subito?",
+   "Il venditore può escludere del tutto la garanzia nel contratto di compravendita?",
+   "Entro quanti giorni devo segnalare al venditore un difetto riscontrato nella merce?"
+  ],
+  "rs": [
+   "220"
+  ],
+  "atti": [
+   "220"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "diritto-dei-consumatori",
+   "contratti-e-obbligazioni",
+   "responsabilita-civile"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Compravendita regolata dagli art. 184 e segg. del Codice delle obbligazioni RS 220."
+ },
+ {
+  "id": "famiglia-e-divorzio",
+  "nome": "Famiglia, matrimonio e divorzio",
+  "descrizione": "matrimonio, regime dei beni, separazione legale, divorzio in tribunale, mantenimento alimentare per coniuge o figli, custodia dei minori e paternità",
+  "non_confondere": [
+   "eredità lasciata ai parenti dopo la morte: successioni-ed-eredita",
+   "assegni familiari pagati con lo stipendio: assegni-familiari"
+  ],
+  "esempi": [
+   "Come si calcola la pensione alimentare per i figli in caso di separazione?",
+   "Quali sono i presupposti legali per chiedere il divorzio se il coniuge non è d'accordo?",
+   "Come vengono divisi i beni acquistati durante il matrimonio in regime ordinario?"
+  ],
+  "rs": [
+   "210",
+   "211"
+  ],
+  "atti": [
+   "210",
+   "211.112.2"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "successioni-ed-eredita",
+   "assegni-familiari",
+   "previdenza-professionale"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Disciplina nel Codice civile svizzero RS 210 e Ordinanza sullo stato civile RS 211.112.2."
+ },
+ {
+  "id": "successioni-ed-eredita",
+  "nome": "Successioni ed eredità",
+  "descrizione": "testamento, spartizione dell'eredità tra i parenti, quota legittima per figli o coniuge, donazioni in vita, rinuncia all'eredità e debiti del defunto",
+  "non_confondere": [
+   "divisione dei beni durante il divorzio: famiglia-e-divorzio",
+   "tasse cantonali sulle successioni: imposte-dirette-e-reddito"
+  ],
+  "esempi": [
+   "Come posso scrivere un testamento valido di mio pugno senza notaio?",
+   "Posso diseredare un figlio o c'è una quota legittima obbligatoria?",
+   "Entro quanto tempo posso rifiutare un'eredità piena di debiti?"
+  ],
+  "rs": [
+   "210"
+  ],
+  "atti": [
+   "210"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "famiglia-e-divorzio",
+   "proprieta-e-vicinato",
+   "imposte-dirette-e-reddito"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Regolato nel Libro terzo del Codice civile svizzero RS 210."
+ },
+ {
+  "id": "proprieta-e-vicinato",
+  "nome": "Proprietà e rapporti di vicinato",
+  "descrizione": "proprietà di terreni e appartamenti, condominio, confini tra vicini, rami sporgenti, rumori notturni, servitù di passaggio e iscrizioni a registro fondiario",
+  "non_confondere": [
+   "regole comunali sull'altezza dei palazzi: pianificazione-del-territorio",
+   "affitto di un alloggio: locazione"
+  ],
+  "esempi": [
+   "Il vicino ha piantato alberi troppo vicini alla recinzione: posso farli tagliare?",
+   "Come si dividono le spese comuni tra i proprietari di un condominio?",
+   "Posso impedire al vicino di passare sul mio sentiero privato se non c'è servitù?"
+  ],
+  "rs": [
+   "210",
+   "211"
+  ],
+  "atti": [
+   "210",
+   "211.432.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "locazione",
+   "pianificazione-del-territorio",
+   "responsabilita-civile"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Diritti reali nel Codice civile RS 210 e Ordinanza sul registro fondiario RS 211.432.1."
+ },
+ {
+  "id": "esecuzione-e-fallimento",
+  "nome": "Esecuzione e fallimento",
+  "descrizione": "recupero crediti, precetto esecutivo, opposizione all'esecuzione, pignoramento dello stipendio o di mobili, attestato di carenza beni e fallimento di persone o ditte",
+  "non_confondere": [
+   "contratti per cui è sorto il credito: contratti-e-obbligazioni",
+   "reati di bancarotta o truffa: reati-contro-patrimonio"
+  ],
+  "esempi": [
+   "Cosa devo fare se ricevo un precetto esecutivo per un debito già pagato?",
+   "Come funziona l'opposizione a una procedura di esecuzione dell'ufficio esecuzioni?",
+   "Quanto stipendio può trattenere l'ufficiale giudiziario durante un pignoramento?"
+  ],
+  "rs": [
+   "281",
+   "282"
+  ],
+  "atti": [
+   "281.1",
+   "281.42",
+   "282.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "contratti-e-obbligazioni",
+   "procedura-e-termini",
+   "banche-e-risparmi"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4
+ },
+ {
+  "id": "contratti-e-obbligazioni",
+  "nome": "Contratti e obbligazioni in generale",
+  "descrizione": "stipulazione di accordi contrattuali, contratti d'appalto per artigiani, mandati professionali, donazioni, clausole penali e rimborso di pagamenti indebiti",
+  "non_confondere": [
+   "contratti tra lavoratore e datore: contratto-lavoro",
+   "contratto di affitto: locazione"
+  ],
+  "esempi": [
+   "Un accordo concluso via messaggio telefonico vale come contratto scritto?",
+   "Cosa posso fare se l'artigiano non completa i lavori concordati a regola d'arte?",
+   "Ho pagato per errore una somma non dovuta: posso chiederne la restituzione?"
+  ],
+  "rs": [
+   "220"
+  ],
+  "atti": [
+   "220"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "compravendita",
+   "responsabilita-civile",
+   "esecuzione-e-fallimento"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Parte generale e singoli contratti nel Codice delle obbligazioni RS 220."
+ },
+ {
+  "id": "societa-commerciali",
+  "nome": "Società commerciali e registro di commercio",
+  "descrizione": "creazione di ditte, società anonime SA, Sagl, statuti societari, assemblea degli azionisti, responsabilità degli amministratori e iscrizione al registro di commercio",
+  "non_confondere": [
+   "contratto di lavoro per i dipendenti: contratto-lavoro",
+   "dichiarazione delle imposte della società: imposte-dirette-e-reddito"
+  ],
+  "esempi": [
+   "Qual è il capitale minimo richiesto per fondare una Sagl in Svizzera?",
+   "Quali rischi personali corre l'amministratore di una società anonima per i debiti sociali?",
+   "Come si modifica la ragione sociale o la sede di una ditta iscritta a registro?"
+  ],
+  "rs": [
+   "220",
+   "221"
+  ],
+  "atti": [
+   "220",
+   "221.301",
+   "221.411"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Ufficio federale del registro di commercio"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "contratti-e-obbligazioni",
+   "esecuzione-e-fallimento",
+   "economia"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4,
+  "note": "Regolato dagli art. 552 e segg. del Codice delle obbligazioni RS 220 e Ordinanza sul registro di commercio RS 221.411."
+ },
+ {
+  "id": "proprieta-intellettuale-e-brevetti",
+  "nome": "Proprietà intellettuale e brevetti",
+  "descrizione": "tutela di marchi di fabbrica, brevetti di nuove invenzioni, diritto d'autore su fotografie, libri o musica, pirateria informatica e licenze d'uso",
+  "non_confondere": [
+   "violazione del segreto d'affari o spionaggio: reati-contro-patrimonio",
+   "truffe commerciali: concorrenza-sleale"
+  ],
+  "esempi": [
+   "Come posso registrare un marchio aziendale per proteggerlo in Svizzera?",
+   "Posso utilizzare una fotografia trovata su internet per il mio sito senza pagare?",
+   "Cosa posso fare se un concorrente copia un mio prodotto brevettato?"
+  ],
+  "rs": [
+   "231",
+   "232"
+  ],
+  "atti": [
+   "231.1",
+   "232.11",
+   "232.14"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Istituto federale della proprietà intellettuale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "concorrenza-sleale",
+   "societa-commerciali",
+   "diritto-penale"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-fondiario-rurale",
+  "nome": "Diritto fondiario rurale",
+  "descrizione": "compravendita di aziende agricole, terreni coltivati, masi, prelazione dei parenti agricoltori e divieto di frazionamento delle proprietà di campagna",
+  "non_confondere": [
+   "terreni edificabili in città: pianificazione-del-territorio",
+   "pagamenti diretti per i raccolti: agricoltura-e-pagamenti-diretti"
+  ],
+  "esempi": [
+   "Chi non è contadino può comprare un'azienda agricola con campi in Svizzera?",
+   "Quali eredi hanno diritto di rilevare il fondo agricolo di famiglia al valore di reddito?"
+  ],
+  "rs": [
+   "211"
+  ],
+  "atti": [
+   "211.412.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "agricoltura-e-pagamenti-diretti",
+   "proprieta-e-vicinato",
+   "successioni-ed-eredita"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-internazionale-privato",
+  "nome": "Diritto internazionale privato",
+  "descrizione": "cause legali tra persone di paesi diversi, matrimonio o divorzio con stranieri, contratti con fornitori esteri e legge applicabile alla controversia",
+  "non_confondere": [
+   "regole doganali sul trasporto di pacchi: dogane-e-importazioni",
+   "permessi di soggiorno: stranieri-e-integrazione"
+  ],
+  "esempi": [
+   "Se divorzio in Svizzera da un cittadino straniero, quale legge si applica?",
+   "Un tribunale svizzero può giudicare un contratto stipulato con un fornitore tedesco?"
+  ],
+  "rs": [
+   "291"
+  ],
+  "atti": [
+   "291"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-privato",
+   "famiglia-e-divorzio",
+   "contratti-e-obbligazioni",
+   "tribunali-e-giustizia"
+  ],
+  "padre": "diritto-privato",
+  "soglia": 0.4
+ },
+ {
+  "id": "reati-contro-persona",
+  "nome": "Reati contro la persona",
+  "descrizione": "aggressioni fisiche, lesioni, percosse, minacce di morte, violenza sessuale, stalking, ingiurie, diffamazione e violenza tra le mura domestiche",
+  "non_confondere": [
+   "danni materiali a un'automobile o a un cancello: reati-contro-patrimonio",
+   "risarcimento pecuniario senza querela: responsabilita-civile"
+  ],
+  "esempi": [
+   "Cosa posso fare se una persona mi minaccia continuamente per strada o al telefono?",
+   "Come denunciare un'aggressione fisica subita all'uscita di un locale?",
+   "Qual è la pena prevista per chi diffama un collega di lavoro sui social network?"
+  ],
+  "rs": [
+   "311"
+  ],
+  "atti": [
+   "311.0"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "aiuto-alle-vittime",
+   "procedura-penale",
+   "responsabilita-civile"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "reati-contro-patrimonio",
+  "nome": "Reati contro il patrimonio",
+  "descrizione": "furto in casa o in negozio, borseggio, truffa, appropriazione indebita di denaro, estorsione, ricatto e danneggiamento di proprietà altrui",
+  "non_confondere": [
+   "fattura non pagata per mancanza di liquidità: esecuzione-e-fallimento",
+   "mancata consegna di un acquisto online: compravendita"
+  ],
+  "esempi": [
+   "Mi hanno rubato la bicicletta dalla cantina: cosa devo fare per denunciare il furto?",
+   "Cosa rischia chi commette una truffa su una piattaforma di vendita online?",
+   "Un vicino ha graffiato volutamente la mia auto: posso sporgere querela penale?"
+  ],
+  "rs": [
+   "311"
+  ],
+  "atti": [
+   "311.0"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "procedura-penale",
+   "esecuzione-e-fallimento",
+   "responsabilita-civile"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-penale-minorile",
+  "nome": "Diritto penale minorile",
+  "descrizione": "reati commessi da ragazzi di età compresa tra dieci e diciotto anni, magistratura dei minorenni, misure protettive, multe e collocamento educativo",
+  "non_confondere": [
+   "affidamento dei figli dopo la separazione dei genitori: famiglia-e-divorzio",
+   "bambini che danneggiano cose dei vicini: responsabilita-civile"
+  ],
+  "esempi": [
+   "Mio figlio minorenne è stato fermato per un furto: cosa rischia davanti al giudice dei minori?",
+   "Un ragazzo di sedici anni può finire in prigione per aver partecipato a una rissa?"
+  ],
+  "rs": [
+   "311",
+   "312"
+  ],
+  "atti": [
+   "311.1",
+   "312.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "procedura-penale",
+   "famiglia-e-divorzio",
+   "scuola-e-cultura"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "procedura-penale",
+  "nome": "Procedura penale e indagini",
+  "descrizione": "interrogatorio di polizia, fermo, carcerazione preventiva, querela penale, decreto d'accusa del pubblico ministero, avvocato difensore e processo in tribunale",
+  "non_confondere": [
+   "procedura per l'incasso di fatture civili: esecuzione-e-fallimento",
+   "multe disciplinari per divieto di sosta: multe-e-contravvenzioni"
+  ],
+  "esempi": [
+   "Ho ricevuto un decreto d'accusa dal procuratore: entro quando posso fare opposizione?",
+   "La polizia può perquisire il mio appartamento senza un mandato del magistrato?",
+   "Quali sono i miei diritti se vengo interrogato come persona informata sui fatti?"
+  ],
+  "rs": [
+   "312"
+  ],
+  "atti": [
+   "312.0"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "tribunali-e-giustizia",
+   "polizia-e-sicurezza",
+   "reati-contro-persona"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "aiuto-alle-vittime",
+  "nome": "Aiuto alle vittime di reati",
+  "descrizione": "sostegno psicologico, consulenza legale gratuita, alloggio protetto, risarcimento morale e indennizzi statali per persone che hanno subito un reato violento",
+  "non_confondere": [
+   "assistenza sociale per chi è rimasto senza soldi: assistenza-sociale-e-bisogno",
+   "polizze infortuni private: assicurazioni-private"
+  ],
+  "esempi": [
+   "Chi ha subito una violenza fisica ha diritto a un aiuto economico dallo Stato?",
+   "Dove posso trovare un consultorio gratuito e confidenziale per vittime di reati?",
+   "Lo Stato paga le spese legali della vittima durante il processo penale?"
+  ],
+  "rs": [
+   "312"
+  ],
+  "atti": [
+   "312.5"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Uffici cantonali LAV"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "reati-contro-persona",
+   "responsabilita-civile",
+   "assistenza-sociale-e-bisogno"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "multe-e-contravvenzioni",
+  "nome": "Multe disciplinari e contravvenzioni",
+  "descrizione": "multe sul posto inflitte dalla polizia o dai controllori, sanzioni senza processo, infrazioni minori, pagamento immediato e rifiuto della procedura sommaria",
+  "non_confondere": [
+   "revoca della patente di guida: circolazione-stradale",
+   "pene detentive inflitte dal giudice: procedura-penale"
+  ],
+  "esempi": [
+   "Posso rifiutarmi di pagare subito una multa disciplinare e chiedere il verbale?",
+   "Cosa succede se non pago una contravvenzione entro i trenta giorni previsti?"
+  ],
+  "rs": [
+   "314"
+  ],
+  "atti": [
+   "314.1",
+   "314.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "circolazione-stradale",
+   "polizia-e-sicurezza",
+   "procedura-e-termini"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "polizia-e-sicurezza",
+  "nome": "Polizia e sicurezza pubblica",
+  "descrizione": "controlli d'identità in strada, perquisizioni di borse, fermo di polizia, banche dati con impronte digitali o DNA e divieti d'accesso a manifestazioni",
+  "non_confondere": [
+   "indagini penali dirette dal magistrato: procedura-penale",
+   "servizio militare obbligatorio: difesa"
+  ],
+  "esempi": [
+   "La polizia può chiedermi i documenti per strada senza un motivo specifico?",
+   "Quando è consentito alla polizia prelevare un campione di saliva per il test del DNA?",
+   "Posso filmare un intervento della polizia in un luogo pubblico?"
+  ],
+  "rs": [
+   "360",
+   "361",
+   "363",
+   "364"
+  ],
+  "atti": [
+   "360",
+   "361",
+   "363",
+   "364"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Fedpol"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "procedura-penale",
+   "costituzione-e-diritti-fondamentali",
+   "protezione-dati"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "casellario-giudiziale-e-fedina",
+  "nome": "Casellario giudiziale ed esecuzione pene",
+  "descrizione": "fedina penale, rilascio dell'estratto del casellario per datori di lavoro, cancellazione automatica delle condanne e lavoro di pubblica utilità",
+  "non_confondere": [
+   "estratto dell'ufficio esecuzioni e fallimenti per debiti: esecuzione-e-fallimento",
+   "indagini preliminari ancora aperte: procedura-penale"
+  ],
+  "esempi": [
+   "Dopo quanti anni viene cancellata una condanna con la condizionale dal casellario?",
+   "Il datore di lavoro può pretendere un estratto speciale del casellario per lavorare con i bambini?"
+  ],
+  "rs": [
+   "311",
+   "341",
+   "371"
+  ],
+  "atti": [
+   "311.0",
+   "341",
+   "371"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Ufficio federale di giustizia"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "procedura-penale",
+   "contratto-lavoro",
+   "protezione-dati"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "diritto-penale-amministrativo",
+  "nome": "Diritto penale amministrativo",
+  "descrizione": "infrazioni e multe inflitte direttamente da uffici federali per contrabbando doganale, frodi fiscali, violazione di norme ambientali o agricole",
+  "non_confondere": [
+   "reati comuni giudicati dalla pretura penale: diritto-penale",
+   "controlli fiscali ordinari: imposte-dirette-e-reddito"
+  ],
+  "esempi": [
+   "Cosa si rischia se si dichiara il falso all'ufficio doganale durante un controllo?",
+   "Quale procedura si applica per le multe inflitte dall'Amministrazione federale delle contribuzioni?"
+  ],
+  "rs": [
+   "313"
+  ],
+  "atti": [
+   "313.0"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "DFF",
+   "UDSC"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "diritto-penale",
+   "dogane-e-importazioni",
+   "imposte-dirette-e-reddito",
+   "finanze"
+  ],
+  "padre": "diritto-penale",
+  "soglia": 0.4
+ },
+ {
+  "id": "formazione-professionale",
+  "nome": "Formazione professionale e tirocinio",
+  "descrizione": "contratto di tirocinio, apprendisti, scuola professionale, esami per attestato federale di capacità AFC, doveri del maestro di tirocinio e salario dell'apprendista",
+  "non_confondere": [
+   "lavoro ordinario di dipendenti adulti: contratto-lavoro",
+   "studi universitari accademici: universita-e-ricerca"
+  ],
+  "esempi": [
+   "Il datore di lavoro può disdire il contratto di tirocinio di un apprendista prima del termine?",
+   "Qual è lo stipendio minimo raccomandato per un apprendista durante i tre anni di tirocinio?",
+   "Cosa posso fare se il maestro di tirocinio non mi insegna le mansioni previste dal programma?"
+  ],
+  "rs": [
+   "412"
+  ],
+  "atti": [
+   "412.10",
+   "412.101"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SEFRI"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "contratto-lavoro",
+   "universita-e-ricerca",
+   "formazione-continua"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "universita-e-ricerca",
+  "nome": "Università, politecnici e ricerca",
+  "descrizione": "iscrizione a università cantonali, politecnici federali di Zurigo e Losanna, tasse universitarie, borse di studio, master, dottorati e progetti scientifici",
+  "non_confondere": [
+   "corsi serali e di hobby: formazione-continua",
+   "apprendistato in azienda: formazione-professionale"
+  ],
+  "esempi": [
+   "Quali requisiti servono per essere ammessi al Politecnico federale di Zurigo?",
+   "A quali condizioni posso ottenere una borsa di studio cantonale per l'università?"
+  ],
+  "rs": [
+   "414",
+   "416",
+   "420"
+  ],
+  "atti": [
+   "414.110",
+   "414.20",
+   "416.0",
+   "420.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SEFRI"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "formazione-professionale",
+   "scuola-e-maturita",
+   "formazione-continua"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "scuola-e-maturita",
+  "nome": "Scuola dell'obbligo e maturità",
+  "descrizione": "scuola elementare, scuola media, licei, esame svizzero di maturità, programmi scolastici, frequenza obbligatoria, lezioni a casa e coordinamento cantonale",
+  "non_confondere": [
+   "tirocini aziendali per giovani: formazione-professionale",
+   "asili nido per bimbi piccoli: alloggi-a-pigione-moderata"
+  ],
+  "esempi": [
+   "Quali materie sono obbligatorie per superare l'esame svizzero di maturità?",
+   "I genitori possono decidere di fare l'istruzione a domicilio per i propri figli in Svizzera?"
+  ],
+  "rs": [
+   "410",
+   "413"
+  ],
+  "atti": [
+   "410.2",
+   "413.12",
+   "413.14"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "formazione-professionale",
+   "universita-e-ricerca",
+   "lingue-e-cultura"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "formazione-continua",
+  "nome": "Formazione continua degli adulti",
+  "descrizione": "corsi serali, riqualificazione professionale per lavoratori, sussidi per la formazione degli adulti, certificazioni e corsi di lingua",
+  "non_confondere": [
+   "tirocinio iniziale dei giovani: formazione-professionale",
+   "corsi universitari regolari: universita-e-ricerca"
+  ],
+  "esempi": [
+   "Ci sono contributi federali per chi frequenta un corso di preparazione a un esame federale?",
+   "Il datore di lavoro deve concedermi ore libere pagate per frequentare un corso di formazione continua?"
+  ],
+  "rs": [
+   "419"
+  ],
+  "atti": [
+   "419.1",
+   "419.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SEFRI"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "formazione-professionale",
+   "contratto-lavoro",
+   "disoccupazione"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "sport-e-tempo-libero",
+  "nome": "Sport e attività fisica",
+  "descrizione": "società sportive, palestre, sussidi federali per Gioventù e Sport, piste da sci, gare dilettantistiche, escursionismo e sicurezza negli impianti sportivi",
+  "non_confondere": [
+   "sentieri alpini e segnaletica pedonale: sentieri-e-percorsi-pedonali",
+   "impianti a fune turistici: impianti-a-fune-e-sci"
+  ],
+  "esempi": [
+   "Come può una società sportiva locale ottenere i sussidi del programma Gioventù e Sport?",
+   "Chi è responsabile se un atleta dilettante si infortuna durante una gara organizzata dalla federazione?"
+  ],
+  "rs": [
+   "415"
+  ],
+  "atti": [
+   "415.0",
+   "415.01",
+   "415.011"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Ufficio federale dello sport UFSPO"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "impianti-a-fune-e-sci",
+   "sentieri-e-percorsi-pedonali",
+   "assicurazione-infortuni"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "lingue-e-cultura",
+  "nome": "Lingue nazionali e promozione culturale",
+  "descrizione": "quattro lingue nazionali svizzere, italiano, romancio, tedesco, francese, bilinguismo, fondazione Pro Helvetia, sussidi a film, teatro, musica e mostre d'arte",
+  "non_confondere": [
+   "corsi di lingua per stranieri per permessi di soggiorno: stranieri-e-integrazione",
+   "canone televisivo Serafe: telecomunicazioni-e-media"
+  ],
+  "esempi": [
+   "Quali documenti ufficiali della Confederazione devono essere pubblicati obbligatoriamente anche in italiano?",
+   "Come può un regista svizzero richiedere un contributo federale per produrre un film indipendente?"
+  ],
+  "rs": [
+   "441",
+   "442",
+   "443"
+  ],
+  "atti": [
+   "441.1",
+   "442.1",
+   "443.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Ufficio federale della cultura UFC"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "stato",
+   "costituzione-e-diritti-fondamentali",
+   "beni-culturali-e-musei"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "beni-culturali-e-musei",
+  "nome": "Beni culturali, musei e monumenti",
+  "descrizione": "musei nazionali, collezioni d'arte pubbliche, scavi archeologici, tutela di castelli e chiese, trasferimento di reperti storici all'estero e patrimonio tutelato",
+  "non_confondere": [
+   "tutela del paesaggio naturale e boschi: protezione-della-natura",
+   "ristrutturazione interna della propria casa: pianificazione-del-territorio"
+  ],
+  "esempi": [
+   "Posso portare fuori dalla Svizzera un quadro antico comprato da un antiquario?",
+   "Chi decide se una vecchia casa di paese è protetta come monumento storico cantonale?"
+  ],
+  "rs": [
+   "432",
+   "444"
+  ],
+  "atti": [
+   "432.21",
+   "432.30",
+   "444.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFC"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "lingue-e-cultura",
+   "protezione-della-natura",
+   "pianificazione-del-territorio"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "protezione-animali",
+  "nome": "Protezione degli animali",
+  "descrizione": "detenzione corretta di cani, gatti, cavalli e bestiame, divieto di maltrattamento, requisiti per le cucce, macellazione conforme e corsi per proprietari",
+  "non_confondere": [
+   "malattie epidemiche del bestiame da fattoria: epizoozie-e-salute-degli-animali",
+   "caccia di cervi e caprioli nei boschi: caccia-e-fauna-selvatica"
+  ],
+  "esempi": [
+   "È obbligatorio frequentare un corso prima di adottare un cane in Svizzera?",
+   "Quali dimensioni minime deve avere la gabbia o il recinto per tenere dei conigli?",
+   "A chi posso segnalare un caso di maltrattamento o abbandono di un animale domestico?"
+  ],
+  "rs": [
+   "455"
+  ],
+  "atti": [
+   "455",
+   "455.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Ufficio federale della sicurezza alimentare e di veterinaria USAV"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "epizoozie-e-salute-degli-animali",
+   "caccia-e-fauna-selvatica",
+   "responsabilita-civile"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "protezione-della-natura",
+  "nome": "Protezione della natura e del paesaggio",
+  "descrizione": "parchi naturali, parchi nazionali nei Grigioni, zone umide, protezione di rive lacustri, tutela di piante rare e divieto di costruire in zone protette",
+  "non_confondere": [
+   "inquinamento industriale di aria e fiumi: protezione-dell-ambiente",
+   "abbattimento e cura degli alberi forestali: foreste-e-legname"
+  ],
+  "esempi": [
+   "Si può campeggiare liberamente in tenda all'interno di una riserva naturale o di un parco?",
+   "Quali vincoli ci sono per ristrutturare un rustico situato in una zona paesaggistica protetta?"
+  ],
+  "rs": [
+   "451",
+   "454"
+  ],
+  "atti": [
+   "451",
+   "451.1",
+   "454"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Ufficio federale dell'ambiente UFAM"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "protezione-dell-ambiente",
+   "pianificazione-del-territorio",
+   "foreste-e-legname"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "specie-protette-flora-fauna",
+  "nome": "Specie protette e commercio di animali esotici",
+  "descrizione": "convenzione CITES, divieto di importazione di tartarughe, pappagalli, coralli, pelli esotiche o piante rare minacciate di estinzione senza apposito permesso federale",
+  "non_confondere": [
+   "detenzione di normali cani o gatti domestici: protezione-animali",
+   "controlli doganali generali sui bagagli: dogane-e-importazioni"
+  ],
+  "esempi": [
+   "Posso portare a casa dal viaggio all'estero una conchiglia o un souvenir fatto di corallo?",
+   "Quali documenti servono per importare legalmente un rettile o un serpente esotico in Svizzera?"
+  ],
+  "rs": [
+   "453"
+  ],
+  "atti": [
+   "453",
+   "453.0"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "USAV"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "scuola-e-cultura",
+   "protezione-animali",
+   "dogane-e-importazioni",
+   "protezione-della-natura"
+  ],
+  "padre": "scuola-e-cultura",
+  "soglia": 0.4
+ },
+ {
+  "id": "servizio-militare-ed-esercito",
+  "nome": "Servizio militare ed esercito",
+  "descrizione": "chiamata alle armi, scuola reclute, corsi di ripetizione annuali, obbligo di servire per uomini svizzeri, rinvio del servizio e congedi per motivi personali",
+  "non_confondere": [
+   "obiezione di coscienza e servizio senza uniforme: servizio-civile",
+   "esenzione medica definitiva: idoneita-militare"
+  ],
+  "esempi": [
+   "Come posso chiedere il rinvio della scuola reclute per motivi di studio universitario?",
+   "Quanti giorni di corso di ripetizione devo compiere ogni anno prima del proscioglimento?",
+   "Cosa rischio se non mi presento alla convocazione della truppa militare?"
+  ],
+  "rs": [
+   "510",
+   "512"
+  ],
+  "atti": [
+   "510.10",
+   "512.21"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "DDPS"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "difesa",
+   "idoneita-militare",
+   "servizio-civile",
+   "tassa-militare"
+  ],
+  "padre": "difesa",
+  "soglia": 0.4
+ },
+ {
+  "id": "idoneita-militare",
+  "nome": "Idoneità e visite di reclutamento",
+  "descrizione": "visita medica di reclutamento, giudizio dei medici militari, inabilità fisica o psicologica, classificazione doppio abile o inabile al servizio militare",
+  "non_confondere": [
+   "tassa annuale per chi non fa il servizio: tassa-militare",
+   "infortuni subiti sotto le armi: assicurazione-militare"
+  ],
+  "esempi": [
+   "Cosa succede durante i tre giorni della visita sanitaria di reclutamento?",
+   "Se il medico militare mi dichiara non idoneo all'esercito, posso fare la protezione civile?",
+   "Come posso contestare la decisione medica di inabilità al servizio?"
+  ],
+  "rs": [
+   "511"
+  ],
+  "atti": [
+   "511.12"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "DDPS"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "difesa",
+   "servizio-militare-ed-esercito",
+   "tassa-militare",
+   "assicurazione-militare"
+  ],
+  "padre": "difesa",
+  "soglia": 0.4
+ },
+ {
+  "id": "armi-e-munizioni",
+  "nome": "Armi, munizioni e tiro",
+  "descrizione": "acquisto di fucili e pistole, permesso d'acquisto di armi, porto d'armi in pubblico, custodia a casa, munizioni e tiro obbligatorio fuori servizio",
+  "non_confondere": [
+   "minacce o aggressioni con pistole: reati-contro-persona",
+   "armi da caccia per cacciatori autorizzati: caccia-e-fauna-selvatica"
+  ],
+  "esempi": [
+   "Quali documenti servono per richiedere un permesso d'acquisto per una pistola?",
+   "Come deve essere custodito l'armamento militare o personale all'interno della propria abitazione?",
+   "Chi è tenuto a svolgere il tiro obbligatorio annuale al poligono?"
+  ],
+  "rs": [
+   "512",
+   "514"
+  ],
+  "atti": [
+   "512.31",
+   "514.54",
+   "514.541"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Fedpol",
+   "Polizia cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "difesa",
+   "servizio-militare-ed-esercito",
+   "polizia-e-sicurezza",
+   "reati-contro-persona"
+  ],
+  "padre": "difesa",
+  "soglia": 0.4
+ },
+ {
+  "id": "protezione-civile",
+  "nome": "Protezione civile e allarmi",
+  "descrizione": "servizio di protezione civile per chi non è arruolato nell'esercito, alluvioni, terremoti, rifugi antiaerei condominiali, sirene di allarme e corsi di soccorso",
+  "non_confondere": [
+   "pompieri e soccorso locale: diritto-cantonale-ticinese",
+   "servizio civile degli obiettori di coscienza: servizio-civile"
+  ],
+  "esempi": [
+   "Chi è obbligato a prestare servizio nella protezione civile comunale o regionale?",
+   "I proprietari di casa sono ancora obbligati a mantenere in ordine il rifugio protetto sotterraneo?"
+  ],
+  "rs": [
+   "520"
+  ],
+  "atti": [
+   "520.1",
+   "520.11",
+   "520.12"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Ufficio federale della protezione della popolazione UFPP"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "difesa",
+   "servizio-militare-ed-esercito",
+   "servizio-civile",
+   "tassa-militare"
+  ],
+  "padre": "difesa",
+  "soglia": 0.4
+ },
+ {
+  "id": "giustizia-penale-militare",
+  "nome": "Giustizia militare e reati di truppa",
+  "descrizione": "tribunali militari per soldati in servizio, diserzione, rifiuto di eseguire un ordine, smarrimento del fucile e sanzioni disciplinari dell'ufficiale comandante",
+  "non_confondere": [
+   "procedura penale civile ordinaria: procedura-penale",
+   "reati tra civili fuori servizio: diritto-penale"
+  ],
+  "esempi": [
+   "Cosa rischia un milite che abbandona la caserma senza permesso durante la scuola reclute?",
+   "Chi giudica un incidente d'auto causato da un veicolo militare durante una marcia?"
+  ],
+  "rs": [
+   "321",
+   "322",
+   "516"
+  ],
+  "atti": [
+   "321.0",
+   "322.1",
+   "516.41"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Giustizia militare"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "difesa",
+   "servizio-militare-ed-esercito",
+   "procedura-penale",
+   "diritto-penale"
+  ],
+  "padre": "difesa",
+  "soglia": 0.4
+ },
+ {
+  "id": "approvvigionamento-economico",
+  "nome": "Approvvigionamento economico e scorte",
+  "descrizione": "scorte obbligatorie di cibo, carburanti e medicinali per la popolazione, misure d'emergenza in caso di gravi penurie o crisi internazionali",
+  "non_confondere": [
+   "aiuti economici a paesi esteri colpiti da guerre: cooperazione-e-aiuto-umanitario",
+   "commercio e negozi: economia"
+  ],
+  "esempi": [
+   "Quali scorte alimentari e di medicinali la legge obbliga le aziende svizzere a tenere?",
+   "Cosa prevede il piano di razionamento energetico in caso di blocco delle importazioni di gas?"
+  ],
+  "rs": [
+   "531"
+  ],
+  "atti": [
+   "531",
+   "531.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Ufficio federale per l'approvvigionamento economico del Paese UFAE"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "difesa",
+   "economia",
+   "energia-elettrica",
+   "derrate-alimentari-e-oggetti-uso"
+  ],
+  "padre": "difesa",
+  "soglia": 0.4
+ },
+ {
+  "id": "servizio-civile",
+  "nome": "Servizio civile sostitutivo",
+  "descrizione": "svolgimento di impieghi di pubblica utilità in ospedali, case anziani o scuole per chi rifiuta il servizio militare per motivi di coscienza",
+  "non_confondere": [
+   "servizio nella protezione civile cantonale: protezione-civile",
+   "volontariato non riconosciuto: scuola-e-cultura"
+  ],
+  "esempi": [
+   "Come si presenta la domanda per passare dal servizio militare al servizio civile?",
+   "Quanti giorni dura il servizio civile rispetto alla scuola reclute e ai corsi dell'esercito?",
+   "Posso scegliere io la struttura sanitaria o sociale dove svolgere il mio impiego civile?"
+  ],
+  "rs": [
+   "824"
+  ],
+  "atti": [
+   "824.0",
+   "824.01"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Ufficio federale del servizio civile CIVI"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "difesa",
+   "servizio-militare-ed-esercito",
+   "protezione-civile",
+   "tassa-militare"
+  ],
+  "padre": "difesa",
+  "soglia": 0.4
+ },
+ {
+  "id": "imposte-dirette-e-reddito",
+  "nome": "Imposte sul reddito e sulla sostanza",
+  "descrizione": "dichiarazione annuale delle tasse, calcolo del reddito imponibile, patrimonio, conti bancari, detrazioni per figli e imposta federale diretta IFD",
+  "non_confondere": [
+   "trattenuta automatica sullo stipendio degli stranieri: imposta-alla-fonte",
+   "recupero coattivo di debiti fiscali: esecuzione-e-fallimento"
+  ],
+  "esempi": [
+   "Come posso contestare la decisione di tassazione provvisoria dell'ufficio imposte?",
+   "Quali spese mediche e di formazione posso dedurre dal reddito imponibile nella dichiarazione fiscale?",
+   "Entro quale data bisogna consegnare la dichiarazione d'imposta per evitare richiami?"
+  ],
+  "rs": [
+   "642"
+  ],
+  "atti": [
+   "642.11",
+   "642.14"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "AFC",
+   "Uffici cantonali delle contribuzioni"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "imposta-alla-fonte",
+   "imposta-preventiva",
+   "doppia-imposizione-fiscale"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "imposta-alla-fonte",
+  "nome": "Imposta alla fonte",
+  "descrizione": "imposta prelevata ogni mese dal salario dei lavoratori stranieri senza permesso C e dei frontalieri, barème fiscali e conguaglio a fine anno",
+  "non_confondere": [
+   "dichiarazione dei redditi ordinaria: imposte-dirette-e-reddito",
+   "ritenute sociali su cassa pensione o AVS: avs-vecchiaia-e-superstiti"
+  ],
+  "esempi": [
+   "Un lavoratore con permesso B tassato alla fonte può fare la dichiarazione fiscale ordinaria?",
+   "Come viene calcolata l'aliquota alla fonte se mia moglie lavora all'estero?",
+   "I lavoratori frontalieri possono detrarre i costi di trasporto dal calcolo dell'imposta alla fonte?"
+  ],
+  "rs": [
+   "642",
+   "672"
+  ],
+  "atti": [
+   "642.11",
+   "672.201"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "AFC"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "imposte-dirette-e-reddito",
+   "stranieri-e-integrazione",
+   "doppia-imposizione-fiscale"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "imposta-valore-aggiunto",
+  "nome": "Imposta sul valore aggiunto (IVA)",
+  "descrizione": "tassa sui beni di consumo e servizi fatturati, aliquota standard, ridotta e speciale alberghiera, obbligo di assoggettamento per ditte e scontrini fiscali",
+  "non_confondere": [
+   "dazi doganali per merci importate: dogane-e-importazioni",
+   "tassa sulle bevande alcoliche: tassa-su-alcol-e-tabacco"
+  ],
+  "esempi": [
+   "Da quale cifra di fatturato annuale un artigiano o libero professionista deve iscriversi all'IVA?",
+   "Quale aliquota IVA si applica per la vendita di cibo da asporto rispetto al ristorante?",
+   "Come posso richiedere il rimborso dell'IVA per beni acquistati in Svizzera ed esportati?"
+  ],
+  "rs": [
+   "641"
+  ],
+  "atti": [
+   "641.201"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "AFC"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "societa-commerciali",
+   "dogane-e-importazioni",
+   "economia"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "imposta-preventiva",
+  "nome": "Imposta preventiva",
+  "descrizione": "ritenuta alla fonte del trentacinque per cento su interessi dei conti correnti, dividendi azionari e vincite a lotterie svizzere, recuperabile con la dichiarazione",
+  "non_confondere": [
+   "tasse sui salari dei lavoratori: imposta-alla-fonte",
+   "imposte sui giochi d'azzardo: giochi-in-denaro-e-lotterie"
+  ],
+  "esempi": [
+   "Perché la banca mi ha trattenuto il trentacinque per cento sugli interessi del conto?",
+   "Cosa devo indicare nella dichiarazione fiscale per recuperare l'imposta preventiva trattenuta?",
+   "Le vincite alla lotteria o ai concorsi sono soggette all'imposta preventiva federale?"
+  ],
+  "rs": [
+   "642"
+  ],
+  "atti": [
+   "642.21"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "AFC"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "imposte-dirette-e-reddito",
+   "banche-e-risparmi",
+   "giochi-in-denaro-e-lotterie"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "dogane-e-importazioni",
+  "nome": "Dogane, dazi e importazioni",
+  "descrizione": "sdoganamento di merci, franchigia per la spesa alimentare oltre confine, dazi su carne, vino, vestiti, acquisti online dall'estero e controlli dei doganieri",
+  "non_confondere": [
+   "tassa di soggiorno alberghiera: finanze",
+   "accordi di libera circolazione di persone Schengen: diritto-ue-in-svizzera"
+  ],
+  "esempi": [
+   "Quanti chili di carne e litri di vino posso importare in Svizzera senza pagare dazio?",
+   "Cosa si paga di dogana e IVA quando si ordina un pacco da un negozio online estero?",
+   "Come funziona l'applicazione QuickZoll per dichiarare da soli le merci alla frontiera?"
+  ],
+  "rs": [
+   "631",
+   "632"
+  ],
+  "atti": [
+   "631.0",
+   "631.01",
+   "632.10"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Ufficio federale della dogana e della sicurezza dei confini UDSC"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "imposta-valore-aggiunto",
+   "diritto-ue-in-svizzera",
+   "polizia-e-sicurezza"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "tassa-militare",
+  "nome": "Tassa d'esenzione dall'obbligo militare",
+  "descrizione": "tributo in denaro dovuto dagli uomini svizzeri che non prestano servizio militare o civile, percentuale sul reddito imponibile e rimborso a fine servizio",
+  "non_confondere": [
+   "stipendio pagato durante la scuola reclute: indennita-perdita-guadagno",
+   "visita medica per valutare l'idoneità: idoneita-militare"
+  ],
+  "esempi": [
+   "Quanto devo pagare di tassa militare all'anno se vengo dichiarato non idoneo al servizio?",
+   "Posso chiedere il rimborso delle tasse militari pagate se in seguito recupero i giorni di servizio?",
+   "Fino a quale età si deve pagare la tassa d'esenzione militare in Svizzera?"
+  ],
+  "rs": [
+   "661"
+  ],
+  "atti": [
+   "661",
+   "661.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "AFC"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "difesa",
+   "servizio-militare-ed-esercito",
+   "idoneita-militare"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "doppia-imposizione-fiscale",
+  "nome": "Doppia imposizione fiscale internazionale",
+  "descrizione": "tassazione di persone o patrimoni che hanno legami con la Svizzera e con uno Stato estero, convenzioni internazionali, pensioni estere e beni immobili oltre confine",
+  "non_confondere": [
+   "tasse sui prodotti acquistati nei negozi esteri: dogane-e-importazioni",
+   "tassazione ordinaria del Cantone: imposte-dirette-e-reddito"
+  ],
+  "esempi": [
+   "Se possiedo una casa di vacanza in Italia, dove devo dichiararla e pagare le tasse?",
+   "Come funziona l'accordo di doppia imposizione fiscale tra la Svizzera e i paesi confinanti?",
+   "Una pensione versata da uno Stato estero a un residente svizzero dove viene tassata?"
+  ],
+  "rs": [
+   "672"
+  ],
+  "atti": [
+   "672.201",
+   "672.933.6",
+   "672.933.61"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Segreteria di Stato per le questioni finanziarie internazionali SFI"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "imposte-dirette-e-reddito",
+   "imposta-alla-fonte",
+   "banche-e-risparmi"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "tassa-su-alcol-e-tabacco",
+  "nome": "Imposte su alcol, tabacco e oli minerali",
+  "descrizione": "imposte di fabbricazione su grappe, distillati, liquori, sigarette, birra e carburanti, autorizzazioni per la distillazione privata e commercio di alcolici",
+  "non_confondere": [
+   "controlli igienici sui cibi e bevande: derrate-alimentari-e-oggetti-uso",
+   "multe per guida in stato di ebbrezza: circolazione-stradale"
+  ],
+  "esempi": [
+   "Posso distillare legalmente grappa o acquavite a casa con i frutti del mio frutteto?",
+   "Quali tasse federali si applicano alla vendita di sigarette elettroniche e tabacco riscaldato?"
+  ],
+  "rs": [
+   "641",
+   "680",
+   "681"
+  ],
+  "atti": [
+   "641.611",
+   "680",
+   "680.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "UDSC"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "finanze",
+   "dogane-e-importazioni",
+   "derrate-alimentari-e-oggetti-uso",
+   "imposta-valore-aggiunto"
+  ],
+  "padre": "finanze",
+  "soglia": 0.4
+ },
+ {
+  "id": "circolazione-stradale",
+  "nome": "Circolazione stradale",
+  "descrizione": "auto, moto, bici, monopattini, patente, multe, incidenti, segnali e cartelli stradali, parcheggi, controlli della polizia",
+  "non_confondere": [
+   "cartelli tra imprese: concorrenza-e-cartelli"
+  ],
+  "esempi": [
+   "Cosa rischio se guido dopo aver bevuto?",
+   "Posso portare a casa un cartello stradale trovato a terra?",
+   "Mi hanno ritirato la patente: posso ricorrere?"
+  ],
+  "rs": [
+   "741"
+  ],
+  "atti": [
+   "741.01",
+   "741.21",
+   "741.11",
+   "741.41",
+   "741.51"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "USTRA"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "responsabilita-civile",
+   "assicurazioni-private",
+   "diritto-penale",
+   "strade-nazionali"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "strade-nazionali",
+  "nome": "Strade nazionali e autostrade",
+  "descrizione": "autostrade svizzere, contrassegno autostradale (vignetta), corsie di emergenza, cantieri della Confederazione, tunnel alpini e pedaggi speciali per camion",
+  "non_confondere": [
+   "strade comunali e quartieri residenziali: circolazione-stradale",
+   "percorsi per camminare in montagna: sentieri-e-percorsi-pedonali"
+  ],
+  "esempi": [
+   "È obbligatorio incollare la vignetta autostradale sul parabrezza o posso usare quella elettronica?",
+   "Cosa rischio se percorro l'autostrada senza contrassegno valido?",
+   "Chi risponde dei danni provocati alla mia auto da un sasso caduto in un cantiere autostradale?"
+  ],
+  "rs": [
+   "725"
+  ],
+  "atti": [
+   "725.11",
+   "725.111",
+   "725.116.2"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "USTRA"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "circolazione-stradale",
+   "responsabilita-civile",
+   "espropriazione"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "trasporto-ferroviario",
+  "nome": "Trasporto ferroviario e treni",
+  "descrizione": "viaggi in treno FFS, abbonamenti generali e metà-prezzo, ritardi dei convogli, rimborsi per corse soppresse, sicurezza delle stazioni e passaggi a livello",
+  "non_confondere": [
+   "autobus cittadini e pullman: trasporto-pubblico-e-viaggiatori",
+   "biglietti per voli aerei: trasporto-aereo"
+  ],
+  "esempi": [
+   "Ho diritto a un indennizzo se il treno FFS arriva con oltre un'ora di ritardo?",
+   "Cosa succede se salgo sul treno senza biglietto valido o con l'abbonamento scaduto?",
+   "Come posso richiedere il rimborso parziale dell'abbonamento se non posso viaggiare per malattia?"
+  ],
+  "rs": [
+   "740",
+   "742"
+  ],
+  "atti": [
+   "740.1",
+   "742.101",
+   "742.141.1"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "UFT"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "trasporto-pubblico-e-viaggiatori",
+   "diritto-dei-consumatori",
+   "responsabilita-civile"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "trasporto-pubblico-e-viaggiatori",
+  "nome": "Trasporto pubblico su gomma e viaggiatori",
+  "descrizione": "linee di autopostali, bus urbani, tram, filobus, acquisto di biglietti alle macchinette, multe per passeggeri senza titolo di viaggio e sicurezza a bordo",
+  "non_confondere": [
+   "regole sulla circolazione delle automobili private: circolazione-stradale",
+   "treni su rotaia: trasporto-ferroviario"
+  ],
+  "esempi": [
+   "Posso contestare il supplemento per mancanza di biglietto sul bus se la macchinetta era guasta?",
+   "Un autista può rifiutare l'accesso sul bus a un passeggero con cane o passeggino?"
+  ],
+  "rs": [
+   "744",
+   "745"
+  ],
+  "atti": [
+   "744.21",
+   "745.1",
+   "745.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFT"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "trasporto-ferroviario",
+   "circolazione-stradale",
+   "diritto-dei-consumatori"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "trasporto-aereo",
+  "nome": "Navigazione aerea e droni",
+  "descrizione": "aeroporti di Zurigo e Ginevra, voli aerei commerciali, perdita di bagagli, ritardo aereo, pilotaggio di droni amatoriali e licenze di volo privato",
+  "non_confondere": [
+   "viaggi in treno o su rotaia: trasporto-ferroviario",
+   "voli di elicotteri dell'esercito: servizio-militare-ed-esercito"
+  ],
+  "esempi": [
+   "Quali risarcimenti spettano al passeggero per un volo cancellato o in forte ritardo?",
+   "Dove è consentito far volare un piccolo drone con telecamera senza autorizzazione?",
+   "Cosa posso fare se la compagnia aerea smarrisce la mia valigia durante il viaggio?"
+  ],
+  "rs": [
+   "748"
+  ],
+  "atti": [
+   "748.0",
+   "748.01",
+   "748.131.1"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Ufficio federale dell'aviazione civile UFAC"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "diritto-dei-consumatori",
+   "responsabilita-civile",
+   "protezione-dati"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "navigazione-e-battelli",
+  "nome": "Navigazione e imbarcazioni",
+  "descrizione": "barche da diporto a motore e a vela su laghi e fiumi svizzeri, patente nautica, collaudo natanti, attracchi, posti barca e regole per bagnanti",
+  "non_confondere": [
+   "regole sulla pesca sportiva nei laghi: pesca-e-acque-interne",
+   "traghetti di linea del servizio pubblico: trasporto-pubblico-e-viaggiatori"
+  ],
+  "esempi": [
+   "È necessaria la patente nautica per guidare una piccola barca a motore sui laghi svizzeri?",
+   "Quali dotazioni di sicurezza devono essere obbligatoriamente presenti su un gommone o pedalò?"
+  ],
+  "rs": [
+   "747"
+  ],
+  "atti": [
+   "747.201.1",
+   "747.30"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFT"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "circolazione-stradale",
+   "pesca-e-acque-interne",
+   "responsabilita-civile"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "impianti-a-fune-e-sci",
+  "nome": "Impianti a fune e sci",
+  "descrizione": "funivie di montagna, cabinovie, seggiovie, scilift, concessioni per impianti turistici, sicurezza sulle piste da sci invernali e controlli tecnici dei cavi",
+  "non_confondere": [
+   "infortuni sportivi senza guasti all'impianto: sport-e-tempo-libero",
+   "treni a cremagliera: trasporto-ferroviario"
+  ],
+  "esempi": [
+   "Chi risponde se una funivia si blocca a mezz'aria lasciando i turisti bloccati per ore?",
+   "Quali regole di sicurezza devono rispettare gli sciatori per non causare incidenti sulle piste?"
+  ],
+  "rs": [
+   "743"
+  ],
+  "atti": [
+   "743.01",
+   "743.011"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFT"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "sport-e-tempo-libero",
+   "responsabilita-civile",
+   "assicurazioni-private"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "energia-elettrica",
+  "nome": "Energia elettrica e approvvigionamento",
+  "descrizione": "bolletta della luce per la casa, fornitori di corrente elettrica, pannelli fotovoltaici sul tetto, allacciamento alla rete, contatori e impianti elettrici domestici",
+  "non_confondere": [
+   "centrali atomiche: energia-nucleare",
+   "dighe alpine: forze-idriche-e-dighe"
+  ],
+  "esempi": [
+   "Posso installare pannelli solari sul tetto della mia casa senza chiedere il permesso al comune?",
+   "Chi controlla se le tariffe dell'elettricità applicate dall'azienda municipalizzata sono corrette?",
+   "Cosa posso fare in caso di danno ai miei elettrodomestici provocato da un improvviso sbalzo di tensione?"
+  ],
+  "rs": [
+   "730",
+   "734"
+  ],
+  "atti": [
+   "730.0",
+   "734.2",
+   "734.71"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Commissione dell'energia elettrica ElCom",
+   "UFE"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "energia-nucleare",
+   "diritto-dei-consumatori",
+   "pianificazione-del-territorio"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "energia-nucleare",
+  "nome": "Energia nucleare e scorie radioattive",
+  "descrizione": "centrali atomiche, sicurezza nucleare, disattivazione dei reattori, depositi geologici per scorie radioattive sotterranee e controlli radiometrici sull'ambiente",
+  "non_confondere": [
+   "radiografie e apparecchi ospedalieri: professioni-sanitarie-e-mediche",
+   "fornitura di elettricità alla casa: energia-elettrica"
+  ],
+  "esempi": [
+   "La Svizzera può costruire nuove centrali nucleari o c'è un divieto per legge?",
+   "Come vengono scelti i siti per lo stoccaggio definitivo delle scorie atomiche sotterranee?"
+  ],
+  "rs": [
+   "732"
+  ],
+  "atti": [
+   "732.1",
+   "732.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Ispettorato federale della sicurezza nucleare IFSN"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "energia-elettrica",
+   "protezione-dell-ambiente",
+   "pianificazione-del-territorio"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "forze-idriche-e-dighe",
+  "nome": "Forze idriche e dighe",
+  "descrizione": "centrali idroelettriche su fiumi e torrenti, bacini artificiali alpini, canoni d'acqua per i Comuni di montagna e sicurezza dei muri delle dighe",
+  "non_confondere": [
+   "tutela della purezza delle acque da scarichi: protezione-dell-ambiente",
+   "pesca nei bacini alpini: pesca-e-acque-interne"
+  ],
+  "esempi": [
+   "A chi appartengono i diritti di sfruttamento dell'acqua dei torrenti di montagna?",
+   "Quali indennizzi spettano ai Comuni e ai Cantoni per la concessione delle forze idriche?"
+  ],
+  "rs": [
+   "721"
+  ],
+  "atti": [
+   "721.101",
+   "721.80"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Ufficio federale dell'energia UFE"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "energia-elettrica",
+   "protezione-dell-ambiente",
+   "pianificazione-del-territorio"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "pianificazione-del-territorio",
+  "nome": "Pianificazione del territorio ed edilizia",
+  "descrizione": "piani regolatori comunali, zone edificabili e agricole, concessione del permesso di costruzione della casa, distanze dai confini e opposizioni dei vicini",
+  "non_confondere": [
+   "contratti di affitto tra inquilino e proprietario: locazione",
+   "acquisto notarile del terreno: compravendita"
+  ],
+  "esempi": [
+   "Posso oppormi al progetto di costruzione di un palazzo vicino al mio giardino?",
+   "Quanto tempo dura la procedura per ottenere la licenza edilizia per ampliare una villetta?",
+   "Cosa succede se il comune declassa il mio terreno da edificabile ad agricolo?"
+  ],
+  "rs": [
+   "700"
+  ],
+  "atti": [
+   "700",
+   "700.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Ufficio federale dello sviluppo territoriale ARE"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "proprieta-e-vicinato",
+   "abitazioni-secondarie",
+   "espropriazione"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "abitazioni-secondarie",
+  "nome": "Abitazioni secondarie e case di vacanza",
+  "descrizione": "case di vacanza nei comuni montani turistici, tetto massimo del venti per cento delle residenze secondarie, divieto di cambio d'uso e alloggi turistici",
+  "non_confondere": [
+   "affitto a lungo termine di una residenza primaria: locazione",
+   "tassa cantonale sugli immobili: imposte-dirette-e-reddito"
+  ],
+  "esempi": [
+   "Posso trasformare la mia casa di residenza in un'abitazione di vacanza da affittare ai turisti?",
+   "Nei comuni che superano il venti per cento di case secondarie è possibile costruire nuovi appartamenti?"
+  ],
+  "rs": [
+   "702"
+  ],
+  "atti": [
+   "702",
+   "702.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "ARE"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "trasporti",
+   "pianificazione-del-territorio",
+   "proprieta-e-vicinato",
+   "locazione"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "espropriazione",
+  "nome": "Espropriazione e lavori pubblici",
+  "descrizione": "cessione forzata di terreni o fabbricati privati per realizzare strade, ferrovie o opere pubbliche della Confederazione e indennità di risarcimento al proprietario",
+  "non_confondere": [
+   "pignoramento di beni per debiti privati: esecuzione-e-fallimento",
+   "vendita volontaria del terreno: compravendita"
+  ],
+  "esempi": [
+   "Lo Stato può togliermi una parte del mio terreno per allargare una strada pubblica?",
+   "Come si calcola l'indennizzo in denaro se il mio fondo viene espropriato dalla Confederazione?",
+   "Posso fare ricorso contro la decisione di espropriazione della mia proprietà?"
+  ],
+  "rs": [
+   "711"
+  ],
+  "atti": [
+   "711",
+   "711.3"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza"
+  ],
+  "collegati": [
+   "trasporti",
+   "proprieta-e-vicinato",
+   "strade-nazionali",
+   "pianificazione-del-territorio"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "servizi-postali",
+  "nome": "Servizi postali e pacchi",
+  "descrizione": "invio di lettere e pacchi con la Posta svizzera, prezzi dei francobolli, recapito a domicilio, buche delle lettere e risarcimento per corrispondenza smarrita",
+  "non_confondere": [
+   "intercettazione di corrispondenza per reati: telecomunicazioni-e-media",
+   "tasse doganali sui pacchi esteri: dogane-e-importazioni"
+  ],
+  "esempi": [
+   "La Posta deve risarcirmi se un pacco raccomandato viene smarrito durante la consegna?",
+   "Il postino può rifiutarsi di recapitare la posta alla porta di casa se abito in una frazione isolata?",
+   "Come posso richiedere il risarcimento per il ritardo di un invio espresso garantito?"
+  ],
+  "rs": [
+   "783"
+  ],
+  "atti": [
+   "783.0",
+   "783.01"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Commissione delle poste PostCom"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "diritto-dei-consumatori",
+   "telecomunicazioni-e-media",
+   "responsabilita-civile"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "telecomunicazioni-e-media",
+  "nome": "Telecomunicazioni, internet e canone TV",
+  "descrizione": "contratti di telefonia mobile e internet, canone radiotelevisivo Serafe, installazione di antenne cellulari, canali radio e televisione pubblica SSR",
+  "non_confondere": [
+   "furto di dati personali su internet: protezione-dati",
+   "servizi di spedizione di lettere: servizi-postali"
+  ],
+  "esempi": [
+   "Sono obbligato a pagare la tassa radiotelevisiva Serafe se a casa non possiedo un televisore?",
+   "Posso disdire senza penale il contratto con il mio operatore telefonico se la linea non funziona?",
+   "I vicini possono opporsi alla posa di una nuova antenna di telefonia mobile vicino alle case?"
+  ],
+  "rs": [
+   "784"
+  ],
+  "atti": [
+   "784.101.1",
+   "784.40",
+   "784.401"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Ufficio federale delle comunicazioni UFCOM",
+   "ComCom"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "diritto-dei-consumatori",
+   "protezione-dati",
+   "servizi-postali"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "sentieri-e-percorsi-pedonali",
+  "nome": "Sentieri ed escursionismo",
+  "descrizione": "sentieri escursionistici di montagna, cartelli gialli, manutenzione dei percorsi pedonali, diritto di passaggio a piedi sui sentieri e sicurezza degli escursionisti",
+  "non_confondere": [
+   "strade aperte al traffico automobilistico: circolazione-stradale",
+   "servitù di passaggio privata su un terreno: proprieta-e-vicinato"
+  ],
+  "esempi": [
+   "Il proprietario di un prato alpino può sbarrare un sentiero ufficiale con un cancello?",
+   "Chi è responsabile della segnaletica e della manutenzione dei sentieri escursionistici nei Comuni?"
+  ],
+  "rs": [
+   "704"
+  ],
+  "atti": [
+   "704",
+   "704.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Ufficio federale delle strade USTRA"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "trasporti",
+   "sport-e-tempo-libero",
+   "protezione-della-natura",
+   "proprieta-e-vicinato"
+  ],
+  "padre": "trasporti",
+  "soglia": 0.4
+ },
+ {
+  "id": "assicurazione-malattie",
+  "nome": "Assicurazione malattie (cassa malati)",
+  "descrizione": "cassa malati obbligatoria LAMal, franchigia annuale, quota a carico del dieci per cento, premi mensili, sussidi per famiglie e copertura di cure e medicine",
+  "non_confondere": [
+   "infortuni capitati al lavoro o nel tempo libero: assicurazione-infortuni",
+   "assicurazioni complementari private: assicurazioni-private"
+  ],
+  "esempi": [
+   "Entro quando posso cambiare cassa malati per risparmiare sui premi dell'anno prossimo?",
+   "Quali trattamenti e farmaci devono essere obbligatoriamente rimborsati dall'assicurazione di base?",
+   "Come faccio a sapere se la mia famiglia ha diritto al sussidio cantonale per la cassa malati?"
+  ],
+  "rs": [
+   "832"
+  ],
+  "atti": [
+   "832.10",
+   "832.102"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFSP"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "assicurazione-infortuni",
+   "medicamenti-e-dispositivi-medici",
+   "diritto-cantonale-ticinese"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "assicurazione-infortuni",
+  "nome": "Assicurazione contro gli infortuni (Suva)",
+  "descrizione": "infortuni sul posto di lavoro e nel tempo libero, Suva, indennità giornaliere per perdita di salario, cure mediche, protesi e rendita per invalidità da infortunio",
+  "non_confondere": [
+   "malattie ordinarie senza un evento improvviso: assicurazione-malattie",
+   "infortuni subiti durante il servizio militare: assicurazione-militare"
+  ],
+  "esempi": [
+   "Chi paga le spese mediche e lo stipendio se mi faccio male giocando a calcetto la domenica?",
+   "Un lavoratore a tempo parziale è coperto anche contro gli infortuni non professionali?",
+   "L'assicurazione infortuni può ridurre le prestazioni se ritiene che ho commesso una colpa grave?"
+  ],
+  "rs": [
+   "832"
+  ],
+  "atti": [
+   "832.202"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "UFAS",
+   "Suva"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "assicurazione-malattie",
+   "contratto-lavoro",
+   "assicurazione-invalidita"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4,
+  "note": "La legge LAINF (RS 832.20) non figura tra i 3 atti del prefisso 832 nel materiale; utilizzata l'Ordinanza OAINF RS 832.202."
+ },
+ {
+  "id": "avs-vecchiaia-e-superstiti",
+  "nome": "AVS e rendita di vecchiaia",
+  "descrizione": "primo pilastro della pensione, rendita di vecchiaia AVS, età pensionabile, accrediti per figli o parenti assistiti, rendita per vedove e orfani e contributi obbligatori",
+  "non_confondere": [
+   "cassa pensione aziendale del secondo pilastro: previdenza-professionale",
+   "aiuto per chi ha una pensione troppo bassa per vivere: prestazioni-complementari"
+  ],
+  "esempi": [
+   "A che età posso andare in pensione e come si calcola l'anticipo o il rinvio della rendita AVS?",
+   "Chi non ha un lavoro stipendiato è comunque tenuto a versare i contributi AVS minimi annuali?",
+   "A quanto ammonta la rendita per superstiti se viene a mancare il coniuge pensionato?"
+  ],
+  "rs": [
+   "831"
+  ],
+  "atti": [
+   "831.101"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFAS"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "previdenza-professionale",
+   "prestazioni-complementari",
+   "assicurazione-invalidita"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4,
+  "note": "La Legge LAVS (RS 831.10) non compare tra i tre atti principali elencati nel materiale per il prefisso 831; utilizzata l'Ordinanza OAVS RS 831.101."
+ },
+ {
+  "id": "assicurazione-invalidita",
+  "nome": "Assicurazione per l'invalidità (AI)",
+  "descrizione": "integrazione professionale dopo malattie o handicap, rendite parziali o totali di invalidità AI, apparecchi acustici, sedie a rotelle e perizie mediche di verifica",
+  "non_confondere": [
+   "rendite per invalidità derivanti esclusivamente da infortunio sul lavoro: assicurazione-infortuni",
+   "pensione di vecchiaia dopo i 65 anni: avs-vecchiaia-e-superstiti"
+  ],
+  "esempi": [
+   "Quali condizioni mediche danno diritto a ricevere una rendita di invalidità parziale dall'AI?",
+   "L'ufficio AI può impormi di fare corsi di riconversione professionale prima di concedere la rendita?",
+   "Come posso richiedere il contributo AI per acquistare una sedia a rotelle o un apparecchio acustico?"
+  ],
+  "rs": [
+   "831"
+  ],
+  "atti": [
+   "831.201"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFAS",
+   "Uffici cantonali AI"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "avs-vecchiaia-e-superstiti",
+   "assicurazione-infortuni",
+   "prestazioni-complementari"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4,
+  "note": "La Legge LAI (RS 831.20) non figura tra i 3 atti del prefisso 831 nel materiale; utilizzata l'Ordinanza OAI RS 831.201."
+ },
+ {
+  "id": "previdenza-professionale",
+  "nome": "Previdenza professionale (cassa pensione, LPP)",
+  "descrizione": "secondo pilastro della pensione, cassa pensione del datore di lavoro, contributi trattenuti dal salario, capitale di vecchiaia, riscatto e prelievo anticipato per comprare casa",
+  "non_confondere": [
+   "rendita statale di base dell'AVS: avs-vecchiaia-e-superstiti",
+   "terzo pilastro bancario o assicurativo facoltativo: banche-e-risparmi"
+  ],
+  "esempi": [
+   "Posso prelevare il denaro della mia cassa pensione per comprare o costruire la mia prima casa?",
+   "Cosa succede ai miei averi del secondo pilastro quando cambio posto di lavoro o smetto di lavorare?",
+   "Al momento della pensione è più conveniente ritirare il capitale o ricevere la rendita mensile a vita?"
+  ],
+  "rs": [
+   "831"
+  ],
+  "atti": [
+   "831.40"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Commissione di alta vigilanza della previdenza professionale CHS PP",
+   "UFAS"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "avs-vecchiaia-e-superstiti",
+   "contratto-lavoro",
+   "famiglia-e-divorzio"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "prestazioni-complementari",
+  "nome": "Prestazioni complementari ad AVS e AI",
+  "descrizione": "aiuto finanziario aggiuntivo per persone che ricevono una rendita AVS o AI insufficiente a coprire i costi minimi di vita o la casa per anziani",
+  "non_confondere": [
+   "assistenza sociale per persone senza lavoro e senza rendita: assistenza-sociale-e-bisogno",
+   "sussidio sui premi della cassa malati: assicurazione-malattie"
+  ],
+  "esempi": [
+   "Chi ha diritto a richiedere le prestazioni complementari se la rendita AVS è troppo bassa?",
+   "Le prestazioni complementari coprono anche le rette di una casa per anziani o casa di cura?",
+   "Se possiedo un appartamento di proprietà posso comunque ricevere le prestazioni complementari?"
+  ],
+  "rs": [
+   "830",
+   "831"
+  ],
+  "atti": [
+   "830.1",
+   "831.101"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFAS",
+   "Uffici cantonali delle assicurazioni sociali"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "avs-vecchiaia-e-superstiti",
+   "assicurazione-invalidita",
+   "assistenza-sociale-e-bisogno"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4,
+  "note": "La Legge LPC (RS 831.30) non figura tra i 3 atti del prefisso 831 nel materiale; usata LPGA RS 830.1 e OAVS RS 831.101."
+ },
+ {
+  "id": "disoccupazione",
+  "nome": "Assicurazione contro la disoccupazione",
+  "descrizione": "indennità giornaliera per chi perde il lavoro, iscrizione all'ufficio regionale di collocamento URC, prove di ricerca d'impiego, corsi di riqualificazione e sanzioni per disdetta volontaria",
+  "non_confondere": [
+   "licenziamento illegittimo da parte del capo: contratto-lavoro",
+   "indennità per assenza dovuta a malattia: assicurazione-malattie"
+  ],
+  "esempi": [
+   "Come e quando devo iscrivermi all'URC dopo aver ricevuto la disdetta dal datore di lavoro?",
+   "Quanti giorni di indennità di disoccupazione mi spettano in base ai mesi lavorati?",
+   "Cosa rischio se non consegno all'URC il numero minimo di candidature di lavoro mensili richieste?"
+  ],
+  "rs": [
+   "837"
+  ],
+  "atti": [
+   "837.0",
+   "837.02"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "contratto-lavoro",
+   "collocamento-e-lavoro-temporaneo",
+   "formazione-continua"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "assegni-familiari",
+  "nome": "Assegni familiari",
+  "descrizione": "contributo mensile per ogni figlio a carico, assegno per figli piccoli, assegno di formazione per studenti, dipendenti e lavoratori indipendenti",
+  "non_confondere": [
+   "alimenti stabiliti dal giudice nel divorzio: famiglia-e-divorzio",
+   "sussidi per rette di asili nido comunali: alloggi-a-pigione-moderata"
+  ],
+  "esempi": [
+   "A quanto ammonta l'assegno familiare mensile per un figlio che frequenta le scuole superiori?",
+   "Se entrambi i genitori lavorano in Cantoni diversi, chi ha la precedenza per incassare gli assegni?",
+   "I lavoratori indipendenti e gli agricoltori hanno diritto agli assegni familiari?"
+  ],
+  "rs": [
+   "836"
+  ],
+  "atti": [
+   "836.1",
+   "836.2",
+   "836.21"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFAS"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "famiglia-e-divorzio",
+   "contratto-lavoro",
+   "agricoltura-e-pagamenti-diretti"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "indennita-perdita-guadagno",
+  "nome": "Indennità per perdita di guadagno (maternità e paternità)",
+  "descrizione": "stipendio pagato durante il congedo di maternità per quattordici settimane, congedo di paternità per quattordici giorni e indennità per giorni di servizio militare o civile",
+  "non_confondere": [
+   "indennità della cassa disoccupazione: disoccupazione",
+   "assegni mensili per i figli: assegni-familiari"
+  ],
+  "esempi": [
+   "A quanto ammonta l'indennità federale di maternità per una lavoratrice dipendente?",
+   "Quanti giorni di congedo di paternità retribuito spettano al padre dopo la nascita del bambino?",
+   "Chi riceve l'indennità di perdita di guadagno durante la scuola reclute se il datore anticipa lo stipendio?"
+  ],
+  "rs": [
+   "834"
+  ],
+  "atti": [
+   "834.1",
+   "834.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "UFAS"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "contratto-lavoro",
+   "servizio-militare-ed-esercito",
+   "famiglia-e-divorzio"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "assicurazione-militare",
+  "nome": "Assicurazione militare",
+  "descrizione": "copertura e risarcimento per danni fisici, malattie o lesioni contratte durante il servizio nell'esercito, nella protezione civile o nel servizio civile sostitutivo",
+  "non_confondere": [
+   "assicurazione infortuni ordinaria per il lavoro civile: assicurazione-infortuni",
+   "visita per valutare l'idoneità fisica: idoneita-militare"
+  ],
+  "esempi": [
+   "Mi sono fatto male al ginocchio durante un'esercitazione militare: chi paga le operazioni e la riabilitazione?",
+   "Come posso richiedere una rendita se una malattia contratta durante il servizio militare mi causa postumi permanenti?"
+  ],
+  "rs": [
+   "833"
+  ],
+  "atti": [
+   "833.1",
+   "833.11"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Suva"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "servizio-militare-ed-esercito",
+   "assicurazione-infortuni",
+   "protezione-civile"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "sicurezza-e-salute-sul-lavoro",
+  "nome": "Sicurezza e salute sul lavoro",
+  "descrizione": "orari massimi di lavoro a settimana, pause obbligatorie, lavoro notturno o domenicale, protezione delle lavoratrici incinte, ergonomia e prevenzione rischi in fabbrica e ufficio",
+  "non_confondere": [
+   "stipendio e ferie pattuite nel contratto: contratto-lavoro",
+   "indennità giornaliera dopo un infortunio: assicurazione-infortuni"
+  ],
+  "esempi": [
+   "Qual è il numero massimo di ore che un dipendente può lavorare per legge in una settimana?",
+   "Il datore di lavoro può obbligarmi a fare il turno di notte senza un'autorizzazione ufficiale?",
+   "Quali protezioni e pause speciali spettano a una dipendente durante la gravidanza e l'allattamento?"
+  ],
+  "rs": [
+   "821",
+   "822"
+  ],
+  "atti": [
+   "821.41",
+   "822.11",
+   "822.111"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SECO",
+   "Ispettorati cantonali del lavoro"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "contratto-lavoro",
+   "assicurazione-infortuni",
+   "impiego-pubblico-federale"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "collocamento-e-lavoro-temporaneo",
+  "nome": "Lavoro interinale e personale a prestito",
+  "descrizione": "agenzie di lavoro temporaneo, contratti interinali, leasing di dipendenti, lavoratori distaccati da aziende estere e rispetto dei contratti collettivi di lavoro",
+  "non_confondere": [
+   "contratto di lavoro a tempo indeterminato con il datore finale: contratto-lavoro",
+   "ricerca di lavoro tramite ufficio pubblico URC: disoccupazione"
+  ],
+  "esempi": [
+   "Quali diritti ha un lavoratore interinale assunto tramite un'agenzia temporanea?",
+   "Un'azienda estera che invia operai in Svizzera deve pagare i salari minimi svizzeri?",
+   "Come funziona il periodo di prova e la disdetta per un contratto a tempo determinato di missione?"
+  ],
+  "rs": [
+   "823"
+  ],
+  "atti": [
+   "823.11",
+   "823.111",
+   "823.201"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "contratto-lavoro",
+   "disoccupazione",
+   "diritto-ue-in-svizzera"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "professioni-sanitarie-e-mediche",
+  "nome": "Professioni mediche e sanitarie",
+  "descrizione": "medici generici, specialisti, dentisti, farmacisti, infermieri, fisioterapisti, autorizzazione cantonale a esercitare la professione, studi medici e dovere di diligenza verso i pazienti",
+  "non_confondere": [
+   "rimborso delle cure da parte della cassa malati: assicurazione-malattie",
+   "approvazione di nuove medicine: medicamenti-e-dispositivi-medici"
+  ],
+  "esempi": [
+   "Quali requisiti deve avere un medico con diploma estero per aprire uno studio in Svizzera?",
+   "Come e dove posso sporgere reclamo per un errore commesso da un medico o dentista?",
+   "È obbligatorio per un farmacista richiedere la ricetta medica per determinati medicinali?"
+  ],
+  "rs": [
+   "811"
+  ],
+  "atti": [
+   "811.11",
+   "811.21"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFSP",
+   "Dipartimenti cantonali della sanità"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "assicurazione-malattie",
+   "medicamenti-e-dispositivi-medici",
+   "responsabilita-civile"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "medicamenti-e-dispositivi-medici",
+  "nome": "Medicamenti e dispositivi medici",
+  "descrizione": "farmaci da banco, compresse con ricetta, siringhe, protesi sanitarie, omologazione di nuovi farmaci da parte di Swissmedic, sperimentazioni cliniche e controllo degli stupefacenti",
+  "non_confondere": [
+   "autorizzazione all'esercizio dei medici: professioni-sanitarie-e-mediche",
+   "tutela dei brevetti farmaceutici: proprieta-intellettuale-e-brevetti"
+  ],
+  "esempi": [
+   "Chi decide quali medicinali possono essere venduti liberamente senza ricetta medica nelle farmacie?",
+   "Posso ordinare legalmente farmaci online da farmacie estere per uso personale?",
+   "Come funziona l'autorizzazione di un nuovo farmaco prima della messa in commercio in Svizzera?"
+  ],
+  "rs": [
+   "810",
+   "812"
+  ],
+  "atti": [
+   "810.21",
+   "812.121.1",
+   "812.21",
+   "812.213"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Swissmedic",
+   "UFSP"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "assicurazione-malattie",
+   "professioni-sanitarie-e-mediche",
+   "diritto-dei-consumatori"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "cartella-informatizzata-paziente",
+  "nome": "Cartella informatizzata del paziente",
+  "descrizione": "dossier elettronico personale con cartelle cliniche, referti di visite, radiografie e analisi del sangue, consenso all'accesso per medici e ospedali e sicurezza informatica",
+  "non_confondere": [
+   "accesso agli atti pubblici dell'amministrazione: trasparenza-amministrazione",
+   "norme generali sulla privacy dei cittadini: protezione-dati"
+  ],
+  "esempi": [
+   "È obbligatorio per un cittadino svizzero aprire la cartella informatizzata del paziente?",
+   "Chi può visualizzare i miei esami del sangue e i miei referti medici nella cartella elettronica?",
+   "Come posso revocare l'accesso alla mia cartella clinica a un determinato medico?"
+  ],
+  "rs": [
+   "816"
+  ],
+  "atti": [
+   "816.1",
+   "816.11"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFSP"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "protezione-dati",
+   "professioni-sanitarie-e-mediche",
+   "assicurazione-malattie"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "derrate-alimentari-e-oggetti-uso",
+  "nome": "Alimentari, igiene e oggetti d'uso",
+  "descrizione": "qualità e freschezza del cibo, etichette con ingredienti e data di scadenza, allergeni alimentari, controlli igienici nei ristoranti, acqua potabile e cosmetici",
+  "non_confondere": [
+   "sussidi per coltivazioni contadine: agricoltura-e-pagamenti-diretti",
+   "prodotti chimici industriali tossici: sostanze-pericolose-e-chimica"
+  ],
+  "esempi": [
+   "Quali informazioni nutrizionali e allergeni devono essere obbligatoriamente scritti sull'etichetta del cibo?",
+   "Come posso segnalare all'ispettorato dei cibi un ristorante con condizioni igieniche precarie?",
+   "Quali controlli di potabilità e qualità della rete idrica sono previsti per legge nei Comuni?"
+  ],
+  "rs": [
+   "817"
+  ],
+  "atti": [
+   "817.042"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "USAV",
+   "Laboratori cantonali"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "diritto-dei-consumatori",
+   "agricoltura-e-pagamenti-diretti",
+   "protezione-dell-ambiente"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "malattie-trasmissibili-ed-epidemie",
+  "nome": "Malattie trasmissibili ed epidemie",
+  "descrizione": "lotta contro infezioni virali e batteriche, obbligo di dichiarazione per malattie contagiose, quarantena sanitaria, vaccinazioni raccomandate e poteri speciali del Consiglio federale durante crisi",
+  "non_confondere": [
+   "cure mediche ordinarie e visite dal dottore: assicurazione-malattie",
+   "malattie infettive che colpiscono solo gli animali d'allevamento: epizoozie-e-salute-degli-animali"
+  ],
+  "esempi": [
+   "Quali provvedimenti straordinari può imporre il Consiglio federale durante un'epidemia pericolosa?",
+   "Il datore di lavoro o il medico possono obbligare un cittadino a fare una vaccinazione?",
+   "Chi risponde se una persona viola consapevolmente l'ordine medico di isolamento in quarantena?"
+  ],
+  "rs": [
+   "818"
+  ],
+  "atti": [
+   "818.101",
+   "818.101.1"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFSP"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "professioni-sanitarie-e-mediche",
+   "costituzione-e-diritti-fondamentali",
+   "stato"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "protezione-dell-ambiente",
+  "nome": "Protezione dell'ambiente e tutela delle acque",
+  "descrizione": "inquinamento dell'aria, fumo di camini e industrie, rumori eccessivi, bonifica di terreni contaminati, smaltimento di rifiuti, riciclaggio e purezza delle acque sotterranee",
+  "non_confondere": [
+   "parchi naturali e paesaggi protetti: protezione-della-natura",
+   "risparmio energetico e fonti rinnovabili: energia-elettrica"
+  ],
+  "esempi": [
+   "Come posso contestare le emissioni di fumo o rumore molesto generate da una fabbrica vicina?",
+   "Quali regole valgono per lo smaltimento corretto di rifiuti speciali o macerie edili?",
+   "Chi deve pagare la costosa bonifica di un terreno inquinato da una vecchia discarica?"
+  ],
+  "rs": [
+   "814"
+  ],
+  "atti": [
+   "814.01",
+   "814.20",
+   "814.501"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "UFAM",
+   "Uffici cantonali dell'ambiente"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "protezione-della-natura",
+   "pianificazione-del-territorio",
+   "responsabilita-civile"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "assistenza-sociale-e-bisogno",
+  "nome": "Assistenza sociale e sostegno ai bisognosi",
+  "descrizione": "aiuto economico del Comune e del Cantone per persone senza risorse finanziarie, sussidi per affitto e spese di base, rimborso dell'assistenza e consultori sociali",
+  "non_confondere": [
+   "prestazioni complementari per chi ha la rendita AVS o AI: prestazioni-complementari",
+   "indennità della cassa disoccupati: disoccupazione"
+  ],
+  "esempi": [
+   "Chi può presentare domanda di assistenza sociale al Comune se ha esaurito ogni risparmio?",
+   "Se ricevo l'aiuto sociale dovrò restituire i soldi ricevuti quando troverò un nuovo lavoro?",
+   "Come viene calcolato il budget minimo per l'assistenza secondo le direttive sociali?"
+  ],
+  "rs": [
+   "851"
+  ],
+  "atti": [
+   "851.1"
+  ],
+  "livelli": [
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Conferenza svizzera delle istituzioni dell'azione sociale COSAS"
+  ],
+  "squadre": [
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "prestazioni-complementari",
+   "disoccupazione",
+   "diritto-cantonale-ticinese"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "alloggi-a-pigione-moderata",
+  "nome": "Alloggi a pigioni moderate e cooperative edilizie",
+  "descrizione": "costruzione di appartamenti a canone calmierato, aiuti federali e comunali per cooperative abitative, sussidi per famiglie a basso reddito e mutui agevolati",
+  "non_confondere": [
+   "controversie ordinarie tra inquilino e proprietario: locazione",
+   "piani di zona per costruire villette: pianificazione-del-territorio"
+  ],
+  "esempi": [
+   "Quali requisiti di reddito massimo servono per ottenere un appartamento a pigione moderata?",
+   "Come può una cooperativa edilizia richiedere mutui o terreni comunali a condizioni agevolate?",
+   "La legge federale prevede sussidi diretti per abbassare l'affitto a famiglie in difficoltà?"
+  ],
+  "rs": [
+   "842",
+   "843"
+  ],
+  "atti": [
+   "842",
+   "842.1",
+   "843"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale",
+   "comunale"
+  ],
+  "prassi": [
+   "Ufficio federale delle abitazioni UFAB"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "sanita-e-sicurezza-sociale",
+   "locazione",
+   "assistenza-sociale-e-bisogno",
+   "pianificazione-del-territorio"
+  ],
+  "padre": "sanita-e-sicurezza-sociale",
+  "soglia": 0.4
+ },
+ {
+  "id": "agricoltura-e-pagamenti-diretti",
+  "nome": "Agricoltura e pagamenti diretti",
+  "descrizione": "coltivazione di campi, vigneti, allevamento di mucche, latte, pagamenti diretti e sussidi della Confederazione per i contadini, etichette bio e mercati agricoli",
+  "non_confondere": [
+   "vendita e successione di poderi agricoli: diritto-fondiario-rurale",
+   "cure veterinarie per cani o gatti: protezione-animali"
+  ],
+  "esempi": [
+   "Quali requisiti ecologici deve rispettare un agricoltore per ricevere i pagamenti diretti federali?",
+   "Come funziona la certificazione per vendere prodotti agricoli con il marchio di agricoltura biologica?",
+   "Ci sono aiuti finanziari della Confederazione per i giovani che aprono una nuova azienda agricola?"
+  ],
+  "rs": [
+   "910"
+  ],
+  "atti": [
+   "910.1",
+   "910.13",
+   "910.18"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Ufficio federale dell'agricoltura UFAG"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "diritto-fondiario-rurale",
+   "derrate-alimentari-e-oggetti-uso",
+   "epizoozie-e-salute-degli-animali"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "epizoozie-e-salute-degli-animali",
+  "nome": "Epizoozie e salute del bestiame",
+  "descrizione": "malattie contagiose del bestiame, peste suina, influenza aviaria, tubercolosi bovina, quarantene veterinarie, indennizzi per capi abbattuti e passaporti per animali da reddito",
+  "non_confondere": [
+   "maltrattamento di cani o gatti da compagnia: protezione-animali",
+   "epidemie tra le persone: malattie-trasmissibili-ed-epidemie"
+  ],
+  "esempi": [
+   "Cosa deve fare un contadino se sospetta un caso di afta o aviaria nella sua stalla?",
+   "Lo Stato risarcisce l'allevatore se gli animali devono essere abbattuti per fermare un'epidemia?",
+   "Quali regole valgono per il trasporto e la registrazione dei bovini nella banca dati federale?"
+  ],
+  "rs": [
+   "916"
+  ],
+  "atti": [
+   "916.401"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "USAV",
+   "Veterinari cantonali"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "agricoltura-e-pagamenti-diretti",
+   "protezione-animali",
+   "derrate-alimentari-e-oggetti-uso"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "foreste-e-legname",
+  "nome": "Foreste, boschi e legname",
+  "descrizione": "tutela dei boschi svizzeri, divieto di dissodamento, taglio e vendita di legname, cura degli alberi contro parassiti e protezione naturale contro frane e slavine",
+  "non_confondere": [
+   "raccolta di funghi o passeggiate nei boschi: sentieri-e-percorsi-pedonali",
+   "alberi e rami sul confine del vicino: proprieta-e-vicinato"
+  ],
+  "esempi": [
+   "Un privato proprietario di un bosco può tagliare legna senza l'autorizzazione del guardaboschi?",
+   "È consentito costruire una casetta o un capanno all'interno di un'area boscata?",
+   "Chi paga la manutenzione dei boschi di protezione che difendono i villaggi dalle valanghe?"
+  ],
+  "rs": [
+   "921"
+  ],
+  "atti": [
+   "921.0",
+   "921.01"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFAM",
+   "Uffici forestali cantonali"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "protezione-della-natura",
+   "pianificazione-del-territorio",
+   "proprieta-e-vicinato"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "caccia-e-fauna-selvatica",
+  "nome": "Caccia e fauna selvatica",
+  "descrizione": "patente di caccia, periodi venatori per cervi e cinghiali, gestione di lupi e orsi, danni da selvaggina alle coltivazioni e riserve di caccia protette",
+  "non_confondere": [
+   "porto d'armi in generale per difesa personale: armi-e-munizioni",
+   "tutela dei cani da caccia: protezione-animali"
+  ],
+  "esempi": [
+   "Quali esami bisogna superare nel Cantone per ottenere la patente di cacciatore?",
+   "Come vengono risarciti i danni provocati dai cinghiali o dai caprioli ai campi coltivati?",
+   "A quali condizioni è consentito l'abbattimento regolatorio di un lupo che attacca il gregge?"
+  ],
+  "rs": [
+   "922"
+  ],
+  "atti": [
+   "922.0",
+   "922.01"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "UFAM",
+   "Uffici cantonali della caccia"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "protezione-della-natura",
+   "armi-e-munizioni",
+   "agricoltura-e-pagamenti-diretti"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "pesca-e-acque-interne",
+  "nome": "Pesca professionale e sportiva",
+  "descrizione": "permessi di pesca in fiumi e laghi, pesca con la canna, periodi di divieto, misure minime dei pesci catturati e ripopolamento ittico",
+  "non_confondere": [
+   "gite in barca a motore sui laghi: navigazione-e-battelli",
+   "inquinamento dell'acqua con sostanze chimiche: protezione-dell-ambiente"
+  ],
+  "esempi": [
+   "È necessario acquistare un permesso per pescare liberamente con la canna dalla riva del lago?",
+   "Quali specie di pesci sono protette e non possono essere pescate nei torrenti svizzeri?",
+   "Come si ottiene la licenza cantonale di pesca sportiva o professionale?"
+  ],
+  "rs": [
+   "923"
+  ],
+  "atti": [
+   "923.0",
+   "923.01"
+  ],
+  "livelli": [
+   "cantonale",
+   "federale"
+  ],
+  "prassi": [
+   "UFAM",
+   "Uffici cantonali della pesca"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "protezione-della-natura",
+   "navigazione-e-battelli",
+   "protezione-dell-ambiente"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "sicurezza-dei-prodotti",
+  "nome": "Sicurezza dei prodotti e marchi tecnici",
+  "descrizione": "requisiti di sicurezza per elettrodomestici, giocattoli per bambini, macchinari da lavoro, marchio di conformità CE o svizzero e richiamo di articoli pericolosi dal mercato",
+  "non_confondere": [
+   "garanzia di due anni per merce che non funziona: compravendita",
+   "igiene e scadenze dei generi alimentari: derrate-alimentari-e-oggetti-uso"
+  ],
+  "esempi": [
+   "Cosa deve fare un fabbricante o importatore se scopre che un giocattolo venduto è difettoso e pericoloso?",
+   "Quali controlli e marcature di sicurezza devono avere gli attrezzi elettrici venduti nei negozi?",
+   "Chi controlla se un prodotto importato rispetta le norme tecniche di sicurezza svizzere?"
+  ],
+  "rs": [
+   "930",
+   "933"
+  ],
+  "atti": [
+   "930.11",
+   "930.111",
+   "933.0"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "diritto-dei-consumatori",
+   "compravendita",
+   "responsabilita-civile"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "giochi-in-denaro-e-lotterie",
+  "nome": "Giochi in denaro, casinò e scommesse",
+  "descrizione": "casinò, case da gioco, poker, lotterie della lotteria svizzera, scommesse sportive, giochi online, prevenzione della dipendenza da gioco e blocco dei giocatori vulnerabili",
+  "non_confondere": [
+   "tasse sulle vincite delle lotterie: imposta-preventiva",
+   "investimenti a rischio in borsa: servizi-e-consulenza-finanziaria"
+  ],
+  "esempi": [
+   "Come funziona la procedura di esclusione e diffida dall'ingresso nei casinò svizzeri?",
+   "I siti internet di poker o scommesse con sede all'estero sono legali o bloccati in Svizzera?",
+   "Quali autorizzazioni servono per organizzare una lotteria o tombola durante una festa di paese?"
+  ],
+  "rs": [
+   "935"
+  ],
+  "atti": [
+   "935.51",
+   "935.511"
+  ],
+  "livelli": [
+   "federale",
+   "cantonale"
+  ],
+  "prassi": [
+   "Commissione federale delle case da gioco CFCG",
+   "Gespa"
+  ],
+  "squadre": [
+   "federale",
+   "cantone",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "imposta-preventiva",
+   "antiriciclaggio",
+   "diritto-penale"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "prezzi-e-sorveglianza",
+  "nome": "Sorveglianza dei prezzi e indicazione",
+  "descrizione": "obbligo di esporre chiaramente i prezzi nei negozi e nelle vetrine, compiti del Sorvegliante dei prezzi (Mister Prezzi), carovita e tariffe pubbliche esorbitanti",
+  "non_confondere": [
+   "accordi segreti sui prezzi tra grandi ditte: concorrenza-e-cartelli",
+   "truffe o pubblicità menzognere: concorrenza-sleale"
+  ],
+  "esempi": [
+   "Il negoziante è obbligato a vendermi l'articolo al prezzo indicato sul cartellino esposto per errore?",
+   "Come posso segnalare a Mister Prezzi un aumento ingiustificato delle tariffe comunali dei rifiuti?",
+   "Nei bar e ristoranti il listino dei prezzi deve essere visibile anche all'esterno del locale?"
+  ],
+  "rs": [
+   "942"
+  ],
+  "atti": [
+   "942.20",
+   "942.211"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Sorveglianza dei prezzi (Mister Prezzi)",
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "diritto-dei-consumatori",
+   "concorrenza-e-cartelli",
+   "concorrenza-sleale"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "commercio-ambulante-e-fiere",
+  "nome": "Commercio ambulante, mercati e fiere",
+  "descrizione": "bancarelle di mercati comunali, venditori ambulanti, fiere di paese, vendita itinerante porta a porta, autorizzazioni per il commercio e sicurezza nelle piazze",
+  "non_confondere": [
+   "negozi stabili in locali commerciali: economia",
+   "vendite su siti internet: diritto-dei-consumatori"
+  ],
+  "esempi": [
+   "Quale autorizzazione cantonale serve per allestire una bancarella di vestiti ai mercati?",
+   "Un commerciante ambulante può vendere generi alimentari senza autorizzazione specifica?",
+   "Quali regole valgono per la vendita porta a porta di prodotti per la casa?"
+  ],
+  "rs": [
+   "943"
+  ],
+  "atti": [
+   "943.1",
+   "943.11"
+  ],
+  "livelli": [
+   "cantonale",
+   "comunale",
+   "federale"
+  ],
+  "prassi": [
+   "Polizia cantonale",
+   "Uffici comunali del commercio"
+  ],
+  "squadre": [
+   "cantone",
+   "federale",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "diritto-dei-consumatori",
+   "derrate-alimentari-e-oggetti-uso",
+   "concorrenza-sleale"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "banche-e-risparmi",
+  "nome": "Banche, conti e risparmi",
+  "descrizione": "apertura di conti correnti, carte, libretti di risparmio, mutui ipotecari per la casa, garanzia dei depositi fino a centomila franchi e segreto bancario",
+  "non_confondere": [
+   "tassa trattenuta sugli interessi del conto: imposta-preventiva",
+   "fallimento di persone o debiti: esecuzione-e-fallimento"
+  ],
+  "esempi": [
+   "Cosa succede ai miei risparmi sul conto corrente se la banca dichiara fallimento?",
+   "La banca può chiudere unilateralmente il mio conto senza fornire una motivazione?",
+   "A quali condizioni la banca può concedere un mutuo ipotecario per acquistare un alloggio?"
+  ],
+  "rs": [
+   "952"
+  ],
+  "atti": [
+   "952.0",
+   "952.02",
+   "952.03"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "FINMA",
+   "Banca nazionale svizzera BNS"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "servizi-e-consulenza-finanziaria",
+   "antiriciclaggio",
+   "sorveglianza-mercati-finanziari"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "servizi-e-consulenza-finanziaria",
+  "nome": "Servizi e consulenza finanziaria",
+  "descrizione": "investimenti in azioni, obbligazioni e fondi d'investimento, consulenti patrimoniali, prospetti informativi sui rischi, dovere di informazione del cliente e tutela degli investitori",
+  "non_confondere": [
+   "prestiti bancari e conti ordinari: banche-e-risparmi",
+   "polizze assicurative vita: assicurazioni-private"
+  ],
+  "esempi": [
+   "Cosa posso fare se il consulente finanziario mi ha consigliato investimenti troppo rischiosi facendomi perdere soldi?",
+   "La banca deve fornirmi una scheda informativa chiara prima di farmi sottoscrivere un fondo comune?",
+   "Come posso presentare un reclamo all'Ombudsman delle banche e degli istituti finanziari?"
+  ],
+  "rs": [
+   "950",
+   "951",
+   "957"
+  ],
+  "atti": [
+   "950.1",
+   "951.31",
+   "957.1"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "FINMA"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "banche-e-risparmi",
+   "sorveglianza-mercati-finanziari",
+   "antiriciclaggio"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "antiriciclaggio",
+  "nome": "Antiriciclaggio e controlli sul denaro",
+  "descrizione": "verifiche sull'origine del denaro contante o di bonifici sospetti, identificazione dell'avente diritto economico, obblighi per banche, fiduciari e notai e segnalazioni all'ufficio MROS",
+  "non_confondere": [
+   "furto o rapina di denaro contante: reati-contro-patrimonio",
+   "controlli fiscali sulle entrate: imposte-dirette-e-reddito"
+  ],
+  "esempi": [
+   "Perché la banca mi chiede spiegazioni scritte e pezze giustificative per un versamento in contanti?",
+   "Quali controlli antiriciclaggio deve fare un notaio o un fiduciario prima di concludere una compravendita?",
+   "Cosa fa l'Ufficio di comunicazione in materia di riciclaggio di denaro MROS dopo una segnalazione?"
+  ],
+  "rs": [
+   "955"
+  ],
+  "atti": [
+   "955.01",
+   "955.23"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Ufficio di comunicazione in materia di riciclaggio di denaro MROS",
+   "FINMA"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "banche-e-risparmi",
+   "sorveglianza-mercati-finanziari",
+   "diritto-penale"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "sorveglianza-mercati-finanziari",
+  "nome": "Sorveglianza dei mercati finanziari (FINMA)",
+  "descrizione": "vigilanza e controlli dell'autorità FINMA su banche, assicurazioni, commercianti di borsa, fondi pensione, fiduciari e autorizzazioni all'esercizio dell'attività bancaria",
+  "non_confondere": [
+   "politica monetaria e tassi guida: banche-e-risparmi",
+   "tasse federali sui redditi: imposte-dirette-e-reddito"
+  ],
+  "esempi": [
+   "Quali poteri di intervento e sanzione ha la FINMA nei confronti di una banca in crisi?",
+   "Come verificare sul registro della FINMA se un istituto finanziario è regolarmente autorizzato?",
+   "Cosa succede se una società non autorizzata raccoglie depositi di denaro dal pubblico in Svizzera?"
+  ],
+  "rs": [
+   "954",
+   "956",
+   "958"
+  ],
+  "atti": [
+   "954.1",
+   "956.1",
+   "958.1"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "FINMA"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "banche-e-risparmi",
+   "assicurazioni-private",
+   "servizi-e-consulenza-finanziaria"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "assicurazioni-private",
+  "nome": "Assicurazioni private e polizze",
+  "descrizione": "polizze sulla vita, assicurazione responsabilità civile privata, assicurazione mobilia domestica (casalingo), copertura casco auto e vigilanza sulle compagnie d'assicurazione",
+  "non_confondere": [
+   "cassa malati obbligatoria LAMal: assicurazione-malattie",
+   "cassa pensione aziendale del secondo pilastro: previdenza-professionale"
+  ],
+  "esempi": [
+   "La compagnia assicurativa può rifiutarsi di pagare il sinistro se dichiaro il fatto con qualche giorno di ritardo?",
+   "Come posso disdire la polizza di assicurazione della mobilia o dell'auto alla scadenza annuale?",
+   "L'assicurazione RC privata copre i danni provocati involontariamente da mio figlio a casa di amici?"
+  ],
+  "rs": [
+   "961"
+  ],
+  "atti": [
+   "961.01",
+   "961.011"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "FINMA"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "responsabilita-civile",
+   "circolazione-stradale",
+   "sorveglianza-mercati-finanziari"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "concorrenza-e-cartelli",
+  "nome": "Concorrenza e cartelli tra imprese",
+  "descrizione": "accordi vietati tra ditte per fissare i prezzi, spartizione del mercato, abuso di posizione dominante, fusioni tra grandi gruppi e multe della Commissione della concorrenza",
+  "non_confondere": [
+   "cartelli stradali della polizia: circolazione-stradale",
+   "pubblicità ingannevole nei confronti dei consumatori: concorrenza-sleale"
+  ],
+  "esempi": [
+   "Perché due grandi aziende di telecomunicazioni non possono mettersi d'accordo per aumentare insieme le tariffe?",
+   "Cosa rischia un consorzio di imprese edili se si accorda segretamente sulle offerte per un appalto pubblico?",
+   "Come interviene la Commissione della concorrenza (COMCO) per bloccare un'intesa illecita sui prezzi?"
+  ],
+  "rs": [
+   "251"
+  ],
+  "atti": [
+   "251",
+   "251.1",
+   "251.4"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Commissione della concorrenza COMCO"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "concorrenza-sleale",
+   "prezzi-e-sorveglianza",
+   "societa-commerciali"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "concorrenza-sleale",
+  "nome": "Concorrenza sleale e pubblicità ingannevole",
+  "descrizione": "pubblicità menzognera, chiamate pubblicitarie moleste nonostante l'asterisco sull'elenco telefonico, denigrazione di concorrenti, spam elettronico e imitazione servile di prodotti",
+  "non_confondere": [
+   "intese sui prezzi tra grandi multinazionali: concorrenza-e-cartelli",
+   "truffe penali perseguite dal procuratore: reati-contro-patrimonio"
+  ],
+  "esempi": [
+   "Cosa posso fare se continuano a chiamarmi per telemarketing anche se ho l'asterisco nel registro telefonico?",
+   "Un concorrente diffonde informazioni false sulla qualità dei miei prodotti: posso fargli causa per concorrenza sleale?",
+   "È legale copiare la grafica e il design della confezione di un prodotto famoso per ingannare i clienti?"
+  ],
+  "rs": [
+   "241"
+  ],
+  "atti": [
+   "241",
+   "241.3"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "SECO"
+  ],
+  "squadre": [
+   "federale",
+   "giurisprudenza",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "diritto-dei-consumatori",
+   "concorrenza-e-cartelli",
+   "compravendita"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ },
+ {
+  "id": "cooperazione-e-aiuto-umanitario",
+  "nome": "Cooperazione allo sviluppo e aiuto umanitario",
+  "descrizione": "aiuti federali per paesi poveri, soccorso in caso di catastrofi naturali all'estero, cooperazione internazionale della Confederazione e contributo svizzero alle Nazioni Unite",
+  "non_confondere": [
+   "domande di rifugio di stranieri giunti in Svizzera: asilo-e-rifugiati",
+   "soccorsi per calamità in Svizzera: protezione-civile"
+  ],
+  "esempi": [
+   "In quali casi la Svizzera invia squadre di soccorso e aiuti finanziari per catastrofi umanitarie all'estero?",
+   "Quali progetti di sviluppo e formazione finanzia la Confederazione nei paesi più poveri del mondo?"
+  ],
+  "rs": [
+   "974",
+   "979",
+   "981"
+  ],
+  "atti": [
+   "974.0",
+   "974.01",
+   "979.1",
+   "981"
+  ],
+  "livelli": [
+   "federale"
+  ],
+  "prassi": [
+   "Direzione dello sviluppo e della cooperazione DSC",
+   "DFAE"
+  ],
+  "squadre": [
+   "federale",
+   "parlamento",
+   "prassi"
+  ],
+  "collegati": [
+   "economia",
+   "stato",
+   "asilo-e-rifugiati",
+   "svizzeri-all-estero"
+  ],
+  "padre": "economia",
+  "soglia": 0.4
+ }
+]

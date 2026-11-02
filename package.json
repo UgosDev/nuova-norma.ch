@@ -1,0 +1,20 @@
+{
+  "name": "nuova-norma-ch",
+  "version": "1.0.0",
+  "description": "Nuova-Norma.ch — Motore di ricerca giuridica su fonti ufficiali svizzere",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-dist.mjs",
+    "deploy:pagine": "node scripts/deployToPagine.mjs",
+    "test": "py -m unittest discover -s tests"
+  },
+  "keywords": [
+    "nuova-norma",
+    "swiss-law",
+    "fedlex",
+    "legaltech",
+    "unhub"
+  ],
+  "author": "UnHub",
+  "license": "ISC"
+}

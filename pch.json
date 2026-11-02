@@ -1,0 +1,10 @@
+{
+  "projectId": "nuova-norma",
+  "name": "Nuova-Norma.ch — Archivio e Motore Giuridico Svizzero",
+  "framework": "html",
+  "outputDir": "dist",
+  "buildCommand": "node scripts/build-dist.mjs",
+  "domains": [
+    "nuova-norma.pagine.ch"
+  ]
+}

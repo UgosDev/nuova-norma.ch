@@ -1,0 +1,54 @@
+# Copia questo file come ".env" (nella stessa cartella del progetto) e inserisci i tuoi dati.
+# Il file .env resta solo sul tuo computer: non condividerlo e non incollarlo in chat.
+
+# Fornitore AI: infomaniak (Svizzera, solo modelli europei) oppure openai (Stati Uniti, temporaneo)
+NN_PROVIDER=infomaniak
+
+# --- Infomaniak ---
+# Pannello Infomaniak > AI Tools > Token API (con accesso ad AI Tools)
+INFOMANIAK_API_TOKEN=
+# Il numero del prodotto AI Tools (compare nell'indirizzo dopo /ai-tools/)
+INFOMANIAK_PRODUCT_ID=
+
+# --- OpenAI ---
+# platform.openai.com > API keys
+OPENAI_API_KEY=
+
+# Modello (facoltativo). Infomaniak: solo mistralai/... o swiss-ai/...  OpenAI: es. gpt-6-luna
+# Se lasci un modello Infomaniak e scegli openai, viene usato gpt-6-luna.
+NN_MODEL=mistralai/Mistral-Small-4-119B-2603
+
+# Solo con NN_PROVIDER=openai: modello per scomposizione, ricerca e affermazioni.
+# I passi brevi (ammissione, riformulazione, generazione, pertinenza, smistamento) usano NN_MODEL (predefinito gpt-6-luna).
+# Scrivi NN_MODEL_FORTE=no per usare un solo modello.
+NN_MODEL_FORTE=gpt-6.1-terra
+
+# --- Vettori per la ricerca preparata ---
+# locale: modello sul computer (GPU se c'e), per lo sviluppo.  infomaniak: API in Svizzera, per la produzione.
+# Usa lo stesso INFOMANIAK_API_TOKEN e INFOMANIAK_PRODUCT_ID qui sopra. Cambiando fonte o modello i vettori
+# vanno ricalcolati: py -m nn calcola-vettori --da-capo
+NN_VETTORI_FONTE=locale
+# NN_VETTORI_MODELLO=bge_multilingual_gemma2
+
+# --- Fornitore di riserva e avvisi (Anorma) ---
+# Con NN_PROVIDER=infomaniak, OpenAI (OPENAI_API_KEY qui sopra) resta solo di riserva: si usa unicamente se
+# Infomaniak non risponde E l'utente lo sceglie per quella ricerca. Senza OPENAI_API_KEY la scelta non compare.
+# NN_OPENAI_MODEL=gpt-6-luna
+# Domande in attesa che Infomaniak torni: dopo quante ore vengono cancellate
+NN_CODA_ORE=48
+# Indirizzo pubblico di Anorma, per il link nelle email di avviso
+ANORMA_URL=http://127.0.0.1:8766
+# Email di avviso (SMTP). Senza NN_SMTP_HOST i messaggi vengono scritti in anorma/data/posta (sviluppo).
+# Infomaniak: mail.infomaniak.com, porta 465
+NN_SMTP_HOST=
+NN_SMTP_PORT=465
+NN_SMTP_UTENTE=
+NN_SMTP_PASSWORD=
+NN_SMTP_MITTENTE=Anorma <avvisi@anorma.ch>
+
+# Solo con NN_PROVIDER=infomaniak: un modello europeo piu grande per i ruoli che cercano e scrivono
+# (scomposizione, squadre, affermazioni, risposta). I ruoli brevi restano su NN_MODEL. Vedi: py -m nn verifica-ai
+# NN_MODEL_FORTE_CH=mistralai/...
+# Ammessi anche i modelli aperti non europei eseguiti da Infomaniak in Svizzera (i dati restano in CH).
+# NN_MODELLI_OSPITATI_CH=0 torna ai soli modelli europei.
+# NN_MODEL_FORTE_CH=Qwen/Qwen3.5-397B-A17B-FP8
