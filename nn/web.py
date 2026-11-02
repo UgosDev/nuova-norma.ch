@@ -13,7 +13,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import os
 from pathlib import Path
 
-from . import __version__, agent, ai, citazioni, cli, diff, fedlex, store
+from . import __version__, agent, ai, citazioni, cli, diff, fedlex, store, triade
 
 # Sostituibile nei test con un modello simulato
 MODEL_FACTORY = ai.make_client
@@ -235,7 +235,7 @@ CSS_CITAZIONI = """
  .nn-nota.piena{top:0;max-height:none;border-radius:0} .nn-nota.piena .nn-testo{max-height:none}}
 @media print{.nn-bolla,.nn-nota{display:none!important}}
 """
-CSS = CSS + CSS_CITAZIONI
+CSS = CSS + CSS_CITAZIONI + triade.CSS_TRIADE   # Regole della triade: pulsanti, etichette, menu, conferme
 
 # Il delta di Nuova Norma (tracciato dalla tavola di design); il colore segue il testo.
 DELTA = "M121.85,0L0,248.78h243.7L121.85,0ZM121.85,37.81l64.88,196.29H25.71L121.85,37.81Z"
@@ -247,6 +247,7 @@ _QUI = Path(__file__).resolve().parent
 LOGO_CSS = (_QUI / "logo.css").read_text("utf-8")
 FAVICON_JS = (_QUI / "favicon.js").read_bytes()
 CITAZIONI_JS = (_QUI / "citazioni.js").read_bytes()
+COPIA_JS = (_QUI / "copia.js").read_bytes()   # menu del clic destro e copia con la fonte
 
 
 def citazioni_init(sito: str = "") -> str:
@@ -459,8 +460,8 @@ def attesa_html(testo: str, kind: str = "trio", size: int = 18) -> str:
 def serve_static(handler, path: str) -> bool:
     """Serve i file condivisi (favicon, script dei riferimenti) e la scheda di una citazione.
     Vero se il percorso e stato gestito. Anorma e PPaToS lo chiamano per primi, quindi valgono anche li."""
-    if path in ("/nn/favicon.js", "/nn/citazioni.js"):
-        body = FAVICON_JS if path == "/nn/favicon.js" else CITAZIONI_JS
+    if path in ("/nn/favicon.js", "/nn/citazioni.js", "/nn/copia.js"):
+        body = {"/nn/favicon.js": FAVICON_JS, "/nn/citazioni.js": CITAZIONI_JS, "/nn/copia.js": COPIA_JS}[path]
         handler.send_response(200)
         handler.send_header("Content-Type", "application/javascript; charset=utf-8")
         handler.send_header("Cache-Control", "max-age=86400" if path == "/nn/favicon.js" else "no-cache")
@@ -509,16 +510,17 @@ def _serve_citazione(handler) -> None:
 # ---- flusso dei passi e narratore (pagina di avanzamento e risultato) ----
 
 
-def _page(title: str, body: str) -> bytes:
+def _page(title: str, body: str, azione: dict | None = None) -> bytes:
+    """azione: voce propria di Nuova-Norma nel menu del clic destro (es. le versioni dell'articolo)."""
     return f"""<!doctype html><html lang="it"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{escape(title)} · Nuova-Norma</title><style>{CSS}{LOGO_CSS}</style>{FAVICON_INIT}</head>
+<title>{escape(title)} · Nuova-Norma</title><style>{CSS}{LOGO_CSS}{triade.tema_css("nuova-norma")}</style>{triade.favicon_init("nuova-norma")}</head>
 <body><header><div class="in"><a href="/" class="marchio" style="display:inline-flex;align-items:center;gap:9px">{logo_tracciato(18)}Nuova-Norma</a>
 <span class="muted small ver">archivio locale · versione {__version__}</span>
 <nav style="margin-left:auto;display:flex;gap:18px"><a href="/" style="font-weight:400">Archivio</a>
 <a href="/chiedi" style="font-weight:400">Chiedi</a>
 <a href="http://127.0.0.1:8766/" style="font-weight:400">Anorma</a></nav></div></header>
-<main>{body}</main>{TRACCIATO_JS}{citazioni_init()}</body></html>""".encode("utf-8")
+<main>{body}</main>{TRACCIATO_JS}{citazioni_init()}{triade.copia_init("nuova-norma", azione=azione)}</body></html>""".encode("utf-8")
 
 
 def _q(**params) -> str:
@@ -678,14 +680,23 @@ def article_page(con, uri: str, lang: str, eid: str) -> bytes:
     notes_html = ("<h2>Note</h2><div class=\"card small muted\">" +
                   "".join(f"<div>{escape(n)}</div>" for n in notes) + "</div>") if notes else ""
     path = " › ".join(json.loads(cur["path"] or "[]"))
+    # per la copia con la fonte: riferimento e pubblicazione ufficiale
+    sr = act["sr_number"] if "sr_number" in act.keys() else ""
+    fonte = f"{cur['num']} {act['title'] or ''}" + (f" (RS {sr})" if sr else "")
+    ufficiale = uri.replace("fedlex.data.admin.ch", "www.fedlex.admin.ch") + f"/{lang}#{eid}"
+    cambi = [i for i in range(1, len(rows)) if rows[i]["text_hash"] and rows[i - 1]["text_hash"]
+             and rows[i]["text_hash"] != rows[i - 1]["text_hash"]]
+    azione = ({"tipo": "versioni", "etichetta": "Confronta con la versione precedente",
+               "url": "/differenze?" + _q(uri=uri, lingua=lang, da=rows[cambi[-1] - 1]["d"], a=rows[cambi[-1]]["d"])}
+              if cambi else None)
     return _page(f"{cur['num']} {act['title']}", f"""
 <p class="small"><a href="/atto?{_q(uri=uri, lingua=lang)}">{escape(act['title'] or uri)}</a></p>
 <p class="muted small">{escape(path)}</p>
 <h1>{escape(cur['num'])} {escape(cur['heading'] or '')}</h1>
 <p class="muted small in-vigore">{logo_anim("flip", 16)}Versione in vigore dal {cur['d']}</p>
-<div class="card"><p class="text" style="margin:0">{escape(cur['text'])}</p></div>
+<div class="card" data-fonte="{escape(fonte)}" data-fonte-url="{escape(ufficiale)}"><p class="text" style="margin:0">{escape(cur['text'])}</p></div>
 {notes_html}
-<h2>Storia dell'articolo</h2><div class="card"><ul class="timeline">{''.join(hist)}</ul></div>""")
+<h2>Storia dell'articolo</h2><div class="card"><ul class="timeline">{''.join(hist)}</ul></div>""", azione=azione)
 
 
 def _render_answer(con, text: str, lang: str, ext: dict | None = None) -> str:
@@ -786,7 +797,7 @@ In archivio locale: {n_acts} {"legge" if n_acts == 1 else "leggi"}; le altre ven
 {status}{''.join(convo)}{result}{err}
 <form class="pl" method="post" action="/chiedi" style="display:block">
 <input type="hidden" name="storia" value="{hidden}">
-<textarea name="domanda" placeholder="Es. Per quanto tempo devo conservare le fatture della mia ditta?" required autofocus></textarea>
+<textarea name="domanda" placeholder="Es. Per quanto tempo devo conservare le fatture della mia ditta?" required autofocus>{escape(question) if answer is None else ""}</textarea>
 <div style="display:flex;gap:8px;margin-top:8px;align-items:center"><select name="lingua">{langs}</select>
 <button>{"Continua" if history else "Chiedi"}</button>{attesa_html("cerco nelle fonti ufficiali...", "scan", 22)}
 {'<a class="small" href="/chiedi" style="margin-left:auto">Nuova conversazione</a>' if history else ''}</div>
@@ -830,7 +841,7 @@ class Handler(BaseHTTPRequestHandler):
             elif url.path == "/differenze":
                 self._send(diff_page(con, q["uri"], lang, q["da"], q["a"]))
             elif url.path == "/chiedi":
-                self._send(chiedi_page(con))
+                self._send(chiedi_page(con, question=q.get("domanda", "")[:600]))   # «Cerca in Nuova-Norma» dal menu
             elif url.path == "/vai":
                 eid = find_article(con, q["uri"], lang, _art_key(q.get("art", "")))
                 if eid:
