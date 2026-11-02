@@ -689,12 +689,20 @@ def article_page(con, uri: str, lang: str, eid: str) -> bytes:
     azione = ({"tipo": "versioni", "etichetta": "Confronta con la versione precedente",
                "url": "/differenze?" + _q(uri=uri, lingua=lang, da=rows[cambi[-1] - 1]["d"], a=rows[cambi[-1]]["d"])}
               if cambi else None)
+    porta = triade.porta_atrium_html(
+        {"prodotto": "nuova-norma", "titolo": f"{cur['num']} {act['title'] or ''}".strip(),
+         "testo": cur["text"] or "", "fonte": f"{fonte} · versione in vigore dal {cur['d']}", "url": ufficiale},
+        "Segui questa legge con altri",
+        "Apri una questione su Atrium con questo articolo e invita chi ne è toccato come te: amici, famiglia, colleghi. "
+        "Il testo è quello in vigore, con il link alla pubblicazione ufficiale.",
+        "Apri una questione con questo articolo")
     return _page(f"{cur['num']} {act['title']}", f"""
 <p class="small"><a href="/atto?{_q(uri=uri, lingua=lang)}">{escape(act['title'] or uri)}</a></p>
 <p class="muted small">{escape(path)}</p>
 <h1>{escape(cur['num'])} {escape(cur['heading'] or '')}</h1>
 <p class="muted small in-vigore">{logo_anim("flip", 16)}Versione in vigore dal {cur['d']}</p>
 <div class="card" data-fonte="{escape(fonte)}" data-fonte-url="{escape(ufficiale)}"><p class="text" style="margin:0">{escape(cur['text'])}</p></div>
+{porta}
 {notes_html}
 <h2>Storia dell'articolo</h2><div class="card"><ul class="timeline">{''.join(hist)}</ul></div>""", azione=azione)
 

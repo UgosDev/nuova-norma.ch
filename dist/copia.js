@@ -10,7 +10,9 @@
      selezione. Da tastiera: tasto Menu o Maiusc F10; frecce, Invio, Esc.
 
   Configurazione (nn/triade.py, copia_init):
-    window.NNCopia = { prodotto, nome, sitoNN, azione: { etichetta, tipo } }
+    window.NNCopia = { prodotto, nome, sitoNN, sitoAtrium, azione: { etichetta, tipo } }
+  «Porta in Atrium» (se sitoAtrium c'e): apre una questione su Atrium con il testo selezionato e la sua fonte, in una
+  scheda nuova. Il testo viaggia nel frammento del link (#o=...), che non arriva a nessun server.
   Tipi di azione: "chiedi" (Anorma: riempie il messaggio a Ugo), "nota" (PPaToS: domanda per l'avvocato, POST
   a azione.url), "versioni" (Nuova-Norma: apre le versioni dell'atto, azione.url).
 
@@ -192,7 +194,8 @@
     cerca: '<circle cx="9" cy="9" r="5"/><path d="M13 13l4 4"/>',
     chiedi: '<path d="M4 5h12v8H9l-4 3v-3H4z"/>',
     nota: '<path d="M10 3l7 14H3z"/><path d="M10 9v3M10 14.5v.01"/>',
-    versioni: '<path d="M4 6h8M4 10h12M4 14h6"/><path d="M14 13l2 2 3-4"/>'
+    versioni: '<path d="M4 6h8M4 10h12M4 14h6"/><path d="M14 13l2 2 3-4"/>',
+    atrium: '<circle cx="7.5" cy="7" r="2.5"/><circle cx="13.5" cy="8" r="2"/><path d="M3 15.5c.6-2.4 2.4-3.8 4.5-3.8s3.9 1.4 4.5 3.8M12 12.2c2 0 3.6 1.1 4.2 3.3"/>'
   };
   function icona(k, accento) {
     return '<svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"' +
@@ -227,6 +230,7 @@
       '<div class="tr-sep" role="separator"></div>' +
       (C.sitoNN || C.prodotto === 'nuova-norma' ? voce('cerca', 'cerca', 'Cerca in Nuova-Norma', { off: vuota }) : '') +
       (az ? voce('azione', az.tipo in IC ? az.tipo : 'nota', az.etichetta, { off: vuota }) : '') +
+      (C.sitoAtrium ? voce('atrium', 'atrium', 'Porta in Atrium', { off: vuota }) : '') +
       '<p class="tr-nota">Menu del browser: Maiusc + clic destro</p>';
     menu = document.createElement('div');
     menu.className = 'tr-menu';
@@ -275,6 +279,14 @@
       var base = C.prodotto === 'nuova-norma' ? '' : (C.sitoNN || '');
       window.open(base + '/chiedi?' + new URLSearchParams({ domanda: testo.slice(0, 300) }).toString(), '_blank', 'noopener');
       return avvisa('Apro la ricerca in Nuova-Norma');
+    }
+    if (v === 'atrium') {
+      var prod = ['anorma', 'nuova-norma', 'ppatos'].indexOf(C.prodotto) >= 0 ? C.prodotto : 'anorma';
+      var ogg = { prodotto: prod, titolo: 'Da ' + NOME + (f[0] ? ' · ' + f[0].rif : ''), testo: testo.slice(0, 1800),
+                  fonte: f[0] ? f[0].rif : '', url: f[0] && f[0].url ? f[0].url : '' };
+      var b64 = btoa(unescape(encodeURIComponent(JSON.stringify(ogg)))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+      window.open(C.sitoAtrium + '/#o=' + b64, '_blank', 'noopener');
+      return avvisa('Apro Atrium: prima di aprire la questione vedi che cosa porti');
     }
     var az = C.azione || {};
     if (az.tipo === 'chiedi') {

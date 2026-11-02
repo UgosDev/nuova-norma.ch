@@ -217,8 +217,8 @@ ol.passi .nome{display:flex;flex-direction:column}
 --serif:Georgia,"Iowan Old Style","Times New Roman",serif;--mono:ui-monospace,"SF Mono",Consolas,monospace}
 @media (prefers-color-scheme:dark){:root{--ctrl:#3a4247;--warn-bg:#3a2a1a;--on-accent:#111416}}
 /* i colori dei tre prodotti, per quando sono nominati (famiglia, link tra i siti): seguono il tema */
-:root{--c-nn:#1f6f5c;--c-an:#5b2a6e;--c-pp:#2b5c9e}
-@media (prefers-color-scheme:dark){:root{--c-nn:#6cc7b8;--c-an:#d9c2ea;--c-pp:#8fb3e6}}
+:root{--c-nn:#1f6f5c;--c-an:#5b2a6e;--c-pp:#2b5c9e;--c-at:#5c4e40}
+@media (prefers-color-scheme:dark){:root{--c-nn:#6cc7b8;--c-an:#d9c2ea;--c-pp:#8fb3e6;--c-at:#e3d3bd}}
 /* il delta dell'intestazione e nell'accento del prodotto */
 header a.marchio .nn-tracciato{color:var(--accent)}
 /* su un fondo nell'accento o arancione il testo segue il tema (nel tema scuro l'accento e chiaro) */
@@ -257,6 +257,13 @@ button{background:var(--accent);border-color:var(--accent);color:var(--on-accent
 .serif{font-family:var(--serif)}
 .mono{font-family:var(--mono)}
 .tabular{font-variant-numeric:tabular-nums}
+/* Porta verso Atrium (porta_atrium_html): Atrium e nominato, quindi compare con la sua pietra */
+.porta-atrium{display:flex;flex-direction:column;gap:10px;margin:24px 0;padding:20px 22px;border:1px solid var(--line);
+ border-radius:var(--r-pannello);background:var(--card)}
+.porta-atrium .pa-testa{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:600;color:var(--fg)}
+.porta-atrium p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
+.porta-atrium .btn{align-self:flex-start;color:var(--fg)}
+.porta-atrium .btn:hover{border-color:var(--c-at)}
 /* Menu del clic destro e conferme (nn/copia.js) */
 .tr-menu{position:fixed;z-index:80;width:316px;max-width:calc(100vw - 16px);box-sizing:border-box;background:var(--card);
  color:var(--fg);border:1px solid var(--ctrl);border-radius:var(--r-pannello);box-shadow:0 12px 32px rgba(17,20,22,.12);
@@ -2538,4 +2545,4 @@ Aggiungi l'articolo per aprirlo direttamente: 235.1 art. 6. Se la legge non è a
     svg.classList.add('vivo');
   });
 })();
-</script><script>window.NNCitazioni={sito:""}</script><script src="/nn/citazioni.js" defer></script><script>window.NNCopia={"prodotto": "nuova-norma", "nome": "Nuova-Norma", "sitoNN": ""}</script><script src="/nn/copia.js" defer></script></body></html>
+</script><script>window.NNCitazioni={sito:""}</script><script src="/nn/citazioni.js" defer></script><script>window.NNCopia={"prodotto": "nuova-norma", "nome": "Nuova-Norma", "sitoNN": "", "sitoAtrium": "http://127.0.0.1:8768"}</script><script src="/nn/copia.js" defer></script></body></html>

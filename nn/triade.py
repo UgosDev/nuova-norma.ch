@@ -9,13 +9,18 @@ l'accento, che e uno per prodotto:
   PPaToS       scrive    blu    #2b5c9e / scuro #8fb3e6
   avviso, punto aperto   arancione #b4531b / scuro #e8a33d (mai rosso), fondo #fbeadf
 
+Atrium, lo spazio condiviso tra le tre stanze, non e un prodotto: ha la cornice in pietra #5c4e40 / scuro #e3d3bd
+(vedi SPAZI). Gli oggetti che vi arrivano tengono il colore del prodotto da cui vengono.
+
 Uso in una pagina: CSS condiviso (nn.web.CSS, che include CSS_TRIADE), poi tema_css(prodotto) che sovrascrive
 l'accento, favicon_init(prodotto) nella testa e copia_init(prodotto) in fondo al corpo.
 """
 
 from __future__ import annotations
 
+import base64
 import json
+import os
 from html import escape
 
 DELTA = "M121.85,0L0,248.78h243.7L121.85,0ZM121.85,37.81l64.88,196.29H25.71L121.85,37.81Z"
@@ -37,6 +42,16 @@ PRODOTTI = {
                "descrizione": "I documenti della tua attività, scritti su misura"},
 }
 
+
+# Spazi che non sono prodotti: hanno un tema proprio ma non compaiono nella famiglia (famiglia_html).
+# Atrium: pietra calda, il travertino dell'atrio romano. L* 34 (tra la prugna 27 e il blu 39), 8:1 su bianco.
+SPAZI = {
+    "atrium": {"nome": "Atrium", "verbo": "riunisce", "accento": "#5c4e40", "scuro": "#e3d3bd",
+               "tinta": "#f6f1ea", "tinta_scura": "#2a241e", "sel": "#ebe1d3", "sel_scura": "#4a3f33",
+               "riflesso": "#b8a68f", "riflesso_scuro": "#f1e6d6", "porta": 8768,
+               "descrizione": "Lo spazio dove la questione si affronta insieme"},
+}
+
 # Componenti delle Regole: pulsanti (accento, bordo, scuro), etichette di stato, riga con fonte, icone di stato,
 # clausola con norma a margine, conferme. Tutti con altezza minima 44 px e fuoco visibile.
 CSS_TRIADE = """
@@ -45,8 +60,8 @@ CSS_TRIADE = """
 --serif:Georgia,"Iowan Old Style","Times New Roman",serif;--mono:ui-monospace,"SF Mono",Consolas,monospace}
 @media (prefers-color-scheme:dark){:root{--ctrl:#3a4247;--warn-bg:#3a2a1a;--on-accent:#111416}}
 /* i colori dei tre prodotti, per quando sono nominati (famiglia, link tra i siti): seguono il tema */
-:root{--c-nn:#1f6f5c;--c-an:#5b2a6e;--c-pp:#2b5c9e}
-@media (prefers-color-scheme:dark){:root{--c-nn:#6cc7b8;--c-an:#d9c2ea;--c-pp:#8fb3e6}}
+:root{--c-nn:#1f6f5c;--c-an:#5b2a6e;--c-pp:#2b5c9e;--c-at:#5c4e40}
+@media (prefers-color-scheme:dark){:root{--c-nn:#6cc7b8;--c-an:#d9c2ea;--c-pp:#8fb3e6;--c-at:#e3d3bd}}
 /* il delta dell'intestazione e nell'accento del prodotto */
 header a.marchio .nn-tracciato{color:var(--accent)}
 /* su un fondo nell'accento o arancione il testo segue il tema (nel tema scuro l'accento e chiaro) */
@@ -85,6 +100,13 @@ button{background:var(--accent);border-color:var(--accent);color:var(--on-accent
 .serif{font-family:var(--serif)}
 .mono{font-family:var(--mono)}
 .tabular{font-variant-numeric:tabular-nums}
+/* Porta verso Atrium (porta_atrium_html): Atrium e nominato, quindi compare con la sua pietra */
+.porta-atrium{display:flex;flex-direction:column;gap:10px;margin:24px 0;padding:20px 22px;border:1px solid var(--line);
+ border-radius:var(--r-pannello);background:var(--card)}
+.porta-atrium .pa-testa{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:600;color:var(--fg)}
+.porta-atrium p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
+.porta-atrium .btn{align-self:flex-start;color:var(--fg)}
+.porta-atrium .btn:hover{border-color:var(--c-at)}
 /* Menu del clic destro e conferme (nn/copia.js) */
 .tr-menu{position:fixed;z-index:80;width:316px;max-width:calc(100vw - 16px);box-sizing:border-box;background:var(--card);
  color:var(--fg);border:1px solid var(--ctrl);border-radius:var(--r-pannello);box-shadow:0 12px 32px rgba(17,20,22,.12);
@@ -117,9 +139,11 @@ button{background:var(--accent);border-color:var(--accent);color:var(--on-accent
 
 
 def _p(prodotto: str) -> dict:
-    if prodotto not in PRODOTTI:
-        raise ValueError(f"prodotto sconosciuto: {prodotto} (uno di: {', '.join(PRODOTTI)})")
-    return PRODOTTI[prodotto]
+    if prodotto in PRODOTTI:
+        return PRODOTTI[prodotto]
+    if prodotto in SPAZI:
+        return SPAZI[prodotto]
+    raise ValueError(f"prodotto sconosciuto: {prodotto} (uno di: {', '.join([*PRODOTTI, *SPAZI])})")
 
 
 def tema_css(prodotto: str) -> str:
@@ -155,10 +179,15 @@ def marchio_html(prodotto: str, size: int = 22) -> str:
                 f'font-size:{size}px;font-weight:600;letter-spacing:-.01em;line-height:1">'
                 f'<span aria-hidden="true">PP</span>{delta_svg(d, "var(--accent)", "margin:0 1px")}'
                 f'<span aria-hidden="true">ToS</span></span>')
+    if prodotto == "atrium":
+        d = round(size * 0.74)
+        return (f'<span class="marchio-at" role="img" aria-label="Atrium" style="display:inline-flex;align-items:baseline;'
+                f'font-size:{size}px;font-weight:500;letter-spacing:-.03em;line-height:1">'
+                f'{delta_svg(d, "var(--accent)", "margin-right:1px")}<span aria-hidden="true">trium</span></span>')
     return escape(p["nome"])
 
 
-VAR_PRODOTTO = {"nuova-norma": "var(--c-nn)", "anorma": "var(--c-an)", "ppatos": "var(--c-pp)"}
+VAR_PRODOTTO = {"nuova-norma": "var(--c-nn)", "anorma": "var(--c-an)", "ppatos": "var(--c-pp)", "atrium": "var(--c-at)"}
 
 _ICONE = {
     # cerchio con spunta (fatto), cerchio vuoto (da fare), cerchio pieno al centro (ora), triangolo con «!» (punto aperto)
@@ -200,11 +229,55 @@ def famiglia_html(corrente: str, siti: dict | None = None) -> str:
             + "".join(out) + "</div>")
 
 
-def copia_init(prodotto: str, sito_nn: str = "", azione: dict | None = None) -> str:
-    """Il menu del clic destro e la copia con la fonte. azione: voce propria del prodotto (vedi copia.js)."""
+def copia_init(prodotto: str, sito_nn: str = "", azione: dict | None = None, sito_atrium: str | None = None) -> str:
+    """Il menu del clic destro e la copia con la fonte. azione: voce propria del prodotto (vedi copia.js).
+    sito_atrium: dove si apre «Porta in Atrium» (predefinito ATRIUM_SITO; stringa vuota per toglierla)."""
     p = _p(prodotto)
-    conf = {"prodotto": prodotto, "nome": p["nome"], "sitoNN": sito_nn.rstrip("/")}
+    conf = {"prodotto": prodotto, "nome": p["nome"], "sitoNN": sito_nn.rstrip("/"),
+            "sitoAtrium": (ATRIUM_SITO if sito_atrium is None else sito_atrium).rstrip("/")}
     if azione:
         conf["azione"] = azione
     return (f"<script>window.NNCopia={json.dumps(conf, ensure_ascii=False)}</script>"
             '<script src="/nn/copia.js" defer></script>')
+
+
+# --- Porte verso Atrium --------------------------------------------------------------------------------------------
+# Ogni prodotto puo aprire una questione su Atrium con un oggetto gia dentro: la risposta breve di Anorma, un articolo
+# di Nuova-Norma, i punti aperti di una bozza di PPaToS. L'oggetto viaggia nel frammento del link (#o=...), che il
+# browser non invia al server: Atrium lo mostra prima di aprire la questione, poi lo cifra con la chiave della stanza.
+# Stesse regole di atrium/statico/atrium.js (pulisciOggetto) e di atrium/porta.py.
+
+ATRIUM_SITO = os.environ.get("NN_ATRIUM_SITO", "http://127.0.0.1:8768").rstrip("/")
+LIMITI_ATRIUM = {"prodotto": 20, "titolo": 200, "testo": 1800, "fonte": 200, "url": 500}
+
+
+def oggetto_atrium(oggetto: dict) -> dict:
+    o = {}
+    for k, n in LIMITI_ATRIUM.items():
+        v = " ".join(str(oggetto.get(k) or "").split()) if k != "testo" else str(oggetto.get(k) or "").strip()
+        if len(v) > n:
+            v = v[: n - 1].rstrip() + "\u2026"
+        if v:
+            o[k] = v
+    if o.get("prodotto") not in PRODOTTI:
+        o["prodotto"] = "anorma"
+    if o.get("url") and not o["url"].startswith(("https://", "http://")):
+        o.pop("url")
+    return o
+
+
+def link_atrium(oggetto: dict, base: str | None = None) -> str:
+    dati = json.dumps(oggetto_atrium(oggetto), ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    return (ATRIUM_SITO if base is None else base).rstrip("/") + "/#o=" + \
+        base64.urlsafe_b64encode(dati).rstrip(b"=").decode("ascii")
+
+
+def porta_atrium_html(oggetto: dict, titolo: str, testo: str, pulsante: str, base: str | None = None) -> str:
+    """Il riquadro che apre una questione su Atrium con l'oggetto dentro. Vuoto se Atrium non e configurato."""
+    sito = ATRIUM_SITO if base is None else base
+    if not sito:
+        return ""
+    return (f'<aside class="porta-atrium" aria-label="Atrium"><div class="pa-testa">{delta_svg(18, "var(--c-at)")}'
+            f'<span>{escape(titolo)}</span></div><p>{escape(testo)}</p>'
+            f'<a class="btn btn-bordo btn-piccolo" href="{escape(link_atrium(oggetto, sito))}" target="_blank" rel="noopener">'
+            f'{escape(pulsante)}</a></aside>')
